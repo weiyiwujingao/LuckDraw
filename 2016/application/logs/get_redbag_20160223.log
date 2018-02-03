@@ -1,0 +1,90 @@
+[10:09:21][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155555836&ordid=51546
+{"error":0,"info":"","money":"100.00"}]
+[10:09:21][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 100.00
+)
+]
+[10:33:10][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=53637
+{"error":0,"info":"","money":"50.00"}]
+[10:33:10][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 50.00
+)
+]
+[11:49:14][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":0,"info":"","money":"100.00"}]
+[11:49:14][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 100.00
+)
+]
+[15:06:39][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":110,"info":"\u4eca\u5929\u62a2\u8fc7\u7ea2\u5305","money":"100.00"}]
+[15:06:39][Array
+(
+    [error] => 110
+    [info] => 今天抢过红包
+    [money] => 100.00
+)
+]
+[15:07:01][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":110,"info":"\u4eca\u5929\u62a2\u8fc7\u7ea2\u5305","money":"100.00"}]
+[15:07:01][Array
+(
+    [error] => 110
+    [info] => 今天抢过红包
+    [money] => 100.00
+)
+]
+[15:08:22][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":110,"info":"\u4eca\u5929\u62a2\u8fc7\u7ea2\u5305","money":"100.00"}]
+[15:08:22][Array
+(
+    [error] => 110
+    [info] => 今天抢过红包
+    [money] => 100.00
+)
+]
+[15:10:09][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":110,"info":"\u4eca\u5929\u62a2\u8fc7\u7ea2\u5305","money":"100.00"}]
+[15:10:09][Array
+(
+    [error] => 110
+    [info] => 今天抢过红包
+    [money] => 100.00
+)
+]
+[15:13:05][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":110,"info":"\u4eca\u5929\u62a2\u8fc7\u7ea2\u5305","money":"100.00"}]
+[15:13:05][Array
+(
+    [error] => 110
+    [info] => 今天抢过红包
+    [money] => 100.00
+)
+]
+[15:20:02][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":110,"info":"\u4eca\u5929\u62a2\u8fc7\u7ea2\u5305","money":"100.00"}]
+[15:20:02][Array
+(
+    [error] => 110
+    [info] => 今天抢过红包
+    [money] => 100.00
+)
+]
+[15:24:20][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":110,"info":"\u4eca\u5929\u62a2\u8fc7\u7ea2\u5305","money":"100.00"}]
+[15:24:20][Array
+(
+    [error] => 110
+    [info] => 今天抢过红包
+    [money] => 100.00
+)
+]

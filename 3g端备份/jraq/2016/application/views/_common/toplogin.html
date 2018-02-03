@@ -1,0 +1,122 @@
+<!---New Login Bar-->
+<div class="LoginBox LgBe">
+    <div class="LoginBar">
+        <div class="LgBes Cf LgBesNw">
+		<form id="top_login" name="top_login" method="post" action="http://passport.cnfol.com/login/reglogin">
+    		<a href="http://help.cnfol.com/" target="_blank" class="R"  tabindex="12">客服帮助</a>
+        	<span class="R Mr10">|</span><a href="http://tuiguang.cnfol.com/" target="_blank" class="Exten R"  tabindex="11">我要推广</a>
+            
+            <a href="javascript:;" class="LgSel" name="Slg"  tabindex="10"></a><span class="LgShowSe2"><a class="Acell Clapp" target="_blank" href="http://p.cnfol.com/index.php?t=iphone">Apple ios</a><a class="Acell Cladd" target="_blank" href="http://p.cnfol.com/index.php?t=android">Android</a><a class="Acell ClPhn" target="_blank" href="http://3g.cnfol.com/">手机网</a></span>
+            <a class="LgPocket Ntladd Mt3" target="_blank" href="http://p.cnfol.com/"  tabindex="9">移动中金</a>
+            
+            <a href="javascript:;" class="LgSel" name="Slg"  tabindex="8"></a><span class="LgShowSel"><a href="javascript:Tn.Sina();"></a></span>
+            <a href="javascript:Tn.Qzone();" title="QQ登录" class="LgQQ"  tabindex="7"></a>
+            <a href="http://passport.cnfol.com/accounts/Register" target="_blank" title="快速注册"  tabindex="6">注册</a>
+            <a href="http://passport.cnfol.com/forgetpassword" target="_blank" title="忘记密码?"  tabindex="5">忘记密码?</a>
+           <!-- <a href="javascript:submitto();" class="LgBtn" tabindex="4">登录</a>-->
+			<a href="javascript:;"  onClick="javascript:submitto();" class="LgBtn" tabindex="4">登录</a>
+            我的中金: <input type="text" class="LoginName" id="LoginName" value="用户名/邮箱/手机" tabindex="1" name="username" />
+            <input class="LoginPass" id="PwPrest" value="密码" tabindex="2" />
+            <input class="LoginPass DisNone" id="LoginPass" type="password" tabindex="3" name="password" />
+			<input type="hidden" name="act" value="login" />
+			<input type="hidden" name="usertype" value="0" />
+			<input type="hidden" name="type" id="Type" value="0"/>
+			<script>
+			var url = document.location.href;
+			document.writeln('<input type="hidden" name="return" value="'+url+'" />');
+			</script>
+		    </form>
+        </div>
+        <div class="LgAfs LgAfsNw">
+    		<a href="http://help.cnfol.com/" target="_blank" class="LgOtLk R">客服帮助</a>
+    		<a href="javascript:Tn.Webqq();" class="LgOtLk R">在线咨询</a>
+            
+            <a href="javascript:;" class="LgSel" name="Slg"></a><span class="LgShowSe2"><a class="Acell Clapp" target="_blank" href="http://p.cnfol.com/index.php?t=iphone">Apple ios</a><a class="Acell Cladd" target="_blank" href="http://p.cnfol.com/index.php?t=android">Android</a><a class="Acell ClPhn" target="_blank" href="http://3g.cnfol.com/">手机网</a></span>
+            
+            
+            <a class="LgPocket Ntladd" target="_blank" href="http://p.cnfol.com/">移动中金</a>
+            <i>欢迎您，<a href="http://passport.cnfol.com/v7/usercenter" target="_blank" class="LgName" id="LgName" >123456789</a> ！</i>|
+            <a href="http://passport.cnfol.com/accounts/MyAccount" target="_blank" class="LgMoney" id="LgMoney" >(123456)</a>|
+            <a href="http://passport.cnfol.com/v7/assistant/messageman" target="_blank" class="LgEmail" id="LgEmail" >(0)</a>|
+            <a href="http://passport.cnfol.com/accounts/MyAccount" target="_blank" >我的帐户</a>|
+            <a href="http://passport.cnfol.com/pay/SaveMoneyMenu" target="_blank" >我要充值</a>|
+        	<a href="http://tuiguang.cnfol.com/" target="_blank" class="Exten">我要推广</a>|
+            <a href="javascript:;" onclick="Tn.TopQuit();loadtmpuser();">退出</a>
+        </div>
+    </div>
+</div>
+<!---End New Login Bar-->
+
+<script type="text/javascript">
+ShowInfo(C.Gsn("Slg"));
+Tn.TopLogin();
+SetOutLn(C.Cls("LgBtn")[0]);
+
+function keyHandler(event) {
+	if(event.keyCode == 13) {
+		submitto();
+	}
+}
+
+function submitto()
+{
+	if (C.G('LoginName').value=="" || C.G('LoginName').value=="用户名/邮箱/手机") {
+			alert("请输入您的用户名！");
+			C.G('username').focus();
+			return false;
+		}
+	else if (C.G('LoginPass').value=="") {
+			alert("请输入您的密码！");
+			return false;
+		}
+	else top_login.submit();
+}
+
+
+function loadtmpuser()
+{
+	var tmpuser = Tn.GetCookie('cookie[passport][tmpuser]');
+	if(tmpuser) C.G('LoginName').value = tmpuser;
+}
+
+loadtmpuser();
+
+C.AddEvent(C.G('LoginName'),"keypress",keyHandler);
+C.AddEvent(C.G('LoginPass'),"keypress",keyHandler);
+</script>
+<!--Banner Start-->
+<div class="Banner Mt10" style="text-align:center">
+	<div class="BannerBg">
+    	<img src="http://hs.cnfol.com/ue/Imgs/Klg/Banner.png" />
+    </div>
+</div>
+<!--Banner End-->
+<!--Nav Start-->
+<!--<div class="Nav Mt20">
+<div class="NavBg">
+<script src="http://he.js.cnfol.com/index_new.php/id=2015&br=0"></script>
+</div>
+</div>-->
+<!--Nav End-->
+<!--Banner Start-->
+<!--<div class="Banner Cf" style="height:350px;">
+	<div class="BannerBg Cf">
+    	<div class="BannerBx Cf">
+        	<img src="http://hs.cnfol.com/ue/Imgs/Klg/Banner.png" />
+        </div>
+    </div>
+</div>-->
+<!--Banner End-->
+<!--Nav Start-->
+<!--<div class="Nav Mt20">
+	<div class="NavBg Cf">
+    	<a href="#1" target="_blank" class="Nlink1 Cf"><i class="NkL"></i><span>首页</span><i class="NkR"></i></a>
+    	<a href="#2" target="_blank" class="Nlink2 Cf Cur"><i class="NkL"></i><span>福建互联网金融</span><i class="NkR"></i></a>
+    	<a href="#3" target="_blank" class="Nlink3 Cf"><i class="NkL"></i><span>活动介绍</span><i class="NkR"></i></a>
+    	<a href="#4" target="_blank" class="Nlink4 Cf"><i class="NkL"></i><span>有奖问答</span><i class="NkR"></i></a>
+    	<a href="#5" target="_blank" class="Nlink5 Cf"><i class="NkL"></i><span>问卷调查</span><i class="NkR"></i></a>
+    	<a href="#6" target="_blank" class="Nlink6 Cf"><i class="NkL"></i><span>知识馆</span><i class="NkR"></i></a>
+    	<a href="#7" target="_blank" class="Nlink7 Cf"><i class="NkL"></i><span>获奖名单</span><i class="NkR"></i></a>
+    </div>
+</div>-->
+<!--Nav End-->

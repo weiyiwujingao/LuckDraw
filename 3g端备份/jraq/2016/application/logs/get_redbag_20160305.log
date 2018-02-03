@@ -1,0 +1,81 @@
+[04:51:40][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155692905&ordid=51546
+{"error":0,"info":"","money":"100.00"}]
+[04:51:40][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 100.00
+)
+]
+[06:26:03][http://www.168p2p.com/api/redbag/get4vote.php?user_id=8603&ordid=51547
+{"error":0,"info":"","money":"25.00"}]
+[06:26:03][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 25.00
+)
+]
+[07:49:12][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155556708&ordid=53637
+{"error":0,"info":"","money":"50.00"}]
+[07:49:12][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 50.00
+)
+]
+[11:14:01][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155694500&ordid=53637
+{"error":0,"info":"","money":"50.00"}]
+[11:14:01][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 50.00
+)
+]
+[11:36:19][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155553594&ordid=53637
+{"error":0,"info":"","money":"50.00"}]
+[11:36:19][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 50.00
+)
+]
+[13:13:18][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155548178&ordid=51547
+{"error":0,"info":"","money":"25.00"}]
+[13:13:18][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 25.00
+)
+]
+[15:20:02][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155692789&ordid=51547
+{"error":0,"info":"","money":"25.00"}]
+[15:20:02][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 25.00
+)
+]
+[15:45:08][http://www.168p2p.com/api/redbag/get4vote.php?user_id=6485&ordid=51547
+{"error":120,"info":"\u62a2\u5149","money":0}]
+[15:45:08][Array
+(
+    [error] => 120
+    [info] => 抢光
+    [money] => 0
+)
+]
+[18:07:54][http://www.168p2p.com/api/redbag/get4vote.php?user_id=1043&ordid=51547
+{"error":120,"info":"\u62a2\u5149","money":0}]
+[18:07:54][Array
+(
+    [error] => 120
+    [info] => 抢光
+    [money] => 0
+)
+]

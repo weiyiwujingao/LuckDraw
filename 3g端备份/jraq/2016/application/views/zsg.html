@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta name="baidu-tc-cerfication" content="514a234c252ea9c06b9c0b37a11ff5f0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1,user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>知识馆-2016年福建省普及互联网金融安全知识活动</title>
+<link type="text/css" rel="stylesheet" href="http://hs.3g.cnfol.com/ue/Css/Klg/3GKlg2016.css?v=201601281454" />
+</head>
+<body>
+<!--Top Start-->
+<header class="TopBar"><img src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/3GBanner5.png?v=20160304"></header>
+<!--Top End-->
+<!--Main Start-->
+<article class="Main Cf">
+	<div class="TitMs Cf">
+    	<p>
+            <span id='tag'></span>
+            <i class="TML"></i>
+            <i class="TMR"></i>
+        </p>
+    </div>
+    <div class="IndDv2 Cf" id='list'>
+		
+		
+    </div>
+</article>
+<!--Main End-->
+<!--Foot Start-->
+<article class="FtCopy Mt20 Tc">copyright ©2015-2016  移动中金在线</article>
+<!--Foot End-->
+<script>
+</script>
+<script src="http://hs.3g.cnfol.com/f=ue/Js/Cms/JqPack.js?v=201602172043" type="text/javascript"></script>
+<script>
+ /*获取当前url的参数*/
+function GetQueryString(name)
+{
+   var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+   var r = window.location.search.substr(1).match(reg);
+   if(r!=null)return  r[2]; return null;
+}
+function getDatalist()
+{
+	var tags = GetQueryString('tags');
+	var title = GetQueryString('title');
+	title = title?title:'';
+	var tagname = decodeURI(title);
+	$('#tag').text(tagname);
+	/*热门专家*/
+	$.ajax({
+		url: 'http://tags.js.cnfol.com/tag_3g.php?tag='+tags+'&start=0&record=10&len=44&ishtml=1&type=1&json=1&charset=utf-8',
+		cache: false,
+		type: 'get',
+		dataType: 'jsonp',
+		jsonp: 'callback',
+
+		success: function(data) {
+			//<a href="#">最热新股申购时间表出炉高澜股份22日申购</a>
+			var count = data.length;
+			var html = '';
+			for(var i=0; i<count; i++)
+			{
+				html += "<a href="+data[i].url+">"+data[i].title+"</a>";
+			}
+			$('#list').append(html);
+
+		},
+	})
+}
+getDatalist();
+</script>
+</script>
+<!--统计代码-->
+<script type="text/javascript" src="http://hs.3g.cnfol.com/3gcnfol/tongji1.js"></script>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</body>
+</html>

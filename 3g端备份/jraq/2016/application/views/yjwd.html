@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta name="baidu-tc-cerfication" content="514a234c252ea9c06b9c0b37a11ff5f0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1,user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>有奖问答-2016年福建省普及互联网金融安全知识活动</title>
+<link type="text/css" rel="stylesheet" href="http://hs.3g.cnfol.com/ue/Css/Klg/3GKlg2016.css?v=201601281547" />
+</head>
+<body>
+<!--Top Start-->
+<header class="TopBar"><img src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/3GBanner5.png?v=20160304"></header>
+<!--Top End-->
+<!--Main Start-->
+<!--<article class="QuesStart Cf" id="QuesStart" style="display:none;">
+	<a href="javascript:QuesSt();" class="QuesStartBtn"><img src="http://hs.3g.cnfol.com/ue/Imgs/Klg/3GStBg.png" width="100%"></a>
+</article>-->
+<form class="QuesLst Cf" id="QuesLst">
+    <div id="topic_all" class="TopicAll">
+        <?php $arr = array('odd','');?>
+		<?php if(!empty($item) && is_array($item)):?>
+		<?php foreach($item as $keynum => $rs):?>
+		<div class="div_topic <?php $arr[$keynum%2]?>" id="topic<?=$keynum+1?>">
+		
+
+            <h4><?=$keynum+1?>、<?=$rs[0]?><span style="display:none;">正确答案：<span class="answer_this_tip"><?=$rs[5]?></span></span></h4>
+            <p><input type="radio" value="A" name="topic<?=$keynum+1?>">A、<?=$rs[1]?></p>
+			<p><input type="radio" value="B" name="topic<?=$keynum+1?>">B、<?=$rs[2]?></p>
+			<p><input type="radio" value="C" name="topic<?=$keynum+1?>">C、<?=$rs[3]?></p>
+			<p><input type="radio" value="D" name="topic<?=$keynum+1?>">D、<?=$rs[4]?></p>
+        </div>
+		<?php endforeach;?>
+		<?php endif;?>
+        <div class="QuesAlt Mt5" id="QuesAlt"></div>
+        <input type="button" value="提交" class="buts2" id="check_answer" name="">
+        <a href="http://www.baidu.com" class="buts2" id="check_answer2" style="display:none;">抽奖</a><!--跳转至抽奖页面-->
+		
+    </div>
+
+</form>
+<!--Main End-->
+<!--Foot Start-->
+<article class="FtCopy Mt20 Tc">copyright ©2015-2016  移动中金在线</article>
+<!--Foot End-->
+<!--Dialog Start-->
+<div class="DiaBg" id="DiaBg"></div>
+<div class="DiaBx Dia1" id="Dia1">
+	<a href="javascript:void(0);" onClick="Dialog.Close()" class="DiaCls">X</a>
+	<p>
+    	<b>恭喜！全部答对！</b>
+        <span>全部答对的用户将有机会或得 抽奖赢取的机会，每人每天2次 机会，点击我要抽奖，开始吧！</span>
+        <a  onclick="iscj();" class="DiaBtn">我要抽奖</a>
+    </p>
+</div>
+<!--Dialog End-->
+
+<script src="http://hs.3g.cnfol.com/f=Cm/Js/Base.js,Cm/Js/Jquery16.js,Cm/Js/Dialog.js,ue/Js/Klg/3GAsk2016.js?v=201601281544" type="text/javascript"></script>
+<script type="text/javascript" src="<?=base_url().'scripts/jquery.cookie.js'?>"></script>
+<script>
+function iscj()
+{
+	var COOKIE_NAME = 'cookie_name';
+	 var key = "<?=$key?>";
+	 var yhjd = "<?=$time?>";
+	 var date = new Date();  
+     date.setTime(date.getTime() + (20 * 60 * 1000));
+	 $.cookie(COOKIE_NAME, key, { path: '/', expires: date });
+	 $.cookie('yhjd', yhjd, { path: '/', expires: date });
+	location.href="<?php echo base_url().'cj.html';?>"+"?t="+"<?php echo $time;?>"+"&key="+"<?php echo $key; ?>"; 
+}
+</script>
+</script>
+<!--统计代码-->
+<script type="text/javascript" src="http://hs.3g.cnfol.com/3gcnfol/tongji1.js"></script>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</body>
+</html>

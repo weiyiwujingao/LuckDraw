@@ -1,0 +1,34 @@
+<?php
+ // mktime: 1456913972
+ return array (
+  'contents' => 
+  array (
+    0 => 
+    array (
+      'username' => 'qq:******5756(未知)',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 2,
+      'time' => '20160302',
+    ),
+    1 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '13699856985',
+      'giftName' => '10元话费',
+      'mark' => 2,
+      'time' => '20160302',
+    ),
+    2 => 
+    array (
+      'username' => '133****0457(福建)',
+      'phone' => '133****0457',
+      'giftName' => '10元话费',
+      ',mark' => 2,
+      'time' => '20160302',
+    ),
+  ),
+  'expire' => 0,
+  'mtime' => 1456913972,
+)
+?>

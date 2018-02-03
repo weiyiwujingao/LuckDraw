@@ -1,0 +1,18 @@
+[13:38:39][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155660128&ordid=51546
+{"error":110,"info":"\u4eca\u5929\u62a2\u8fc7\u7ea2\u5305","money":"100.00"}]
+[13:38:39][Array
+(
+    [error] => 110
+    [info] => 今天抢过红包
+    [money] => 100.00
+)
+]
+[13:48:19][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155555846&ordid=51546
+{"error":0,"info":"","money":"100.00"}]
+[13:48:19][Array
+(
+    [error] => 0
+    [info] => 
+    [money] => 100.00
+)
+]

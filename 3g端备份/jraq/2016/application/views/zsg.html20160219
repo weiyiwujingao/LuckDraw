@@ -1,0 +1,103 @@
+<!--Nav Start-->
+<div class="Nav Mt20">
+	<div class="NavBg Cf">
+    	<a href="<?=base_url()?>" target="_blank" class="Nlink1 Cf"><i class="NkL"></i><span>首页</span><i class="NkR"></i></a>
+    	<a href="<?=base_url()?>" target="_blank" class="Nlink2 Cf"><i class="NkL"></i><span>福建互联网金融</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'hdjs.html'?>" target="_blank" class="Nlink3 Cf"><i class="NkL"></i><span>活动介绍</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'yjwd.html'?>" target="_blank" class="Nlink4 Cf"><i class="NkL"></i><span>有奖问答</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'wjdc.html'?>" target="_blank" class="Nlink5 Cf"><i class="NkL"></i><span>问卷调查</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'zsg.html'?>" target="_blank" class="Nlink6 Cf Cur"><i class="NkL"></i><span>知识馆</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'hjmd.html'?>" target="_blank" class="Nlink7 Cf"><i class="NkL"></i><span>获奖名单</span><i class="NkR"></i></a>
+    </div>
+</div>
+<!--Nav End-->
+<!--Main Start-->
+<div class="W960 Mt50 Cf">
+	<div class="TitSBx"><b class="TitC3"></b></div>
+	<div class="KlgLst Cf">
+    	<div class="LstL Cf">
+        	<a href="http://shell.cnfol.com/tags/%B8%A3%BD%A8%CA%A1%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%D5%FE%B2%DF%BC%B0%B7%A2%D5%B9%C7%E9%BF%F6" target="_blank"><b>福建省相关政策及发展情况</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%B8%A3%BD%A8%CA%A1%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%D5%FE%B2%DF%BC%B0%B7%A2%D5%B9%C7%E9%BF%F6&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        	<a href="http://shell.cnfol.com/tags/%D6%D0%BD%F0%D4%DA%CF%DF%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%B2%FA%C6%B7" target="_blank"><b>中金在线相关产品</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%D6%D0%BD%F0%D4%DA%CF%DF%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%B2%FA%C6%B7&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        	<a href="http://shell.cnfol.com/tags/%D6%D0%BD%F0%D4%DA%CF%DF%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%B2%FA%C6%B7" target="_blank"><b>投资安全知识</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%CD%B6%D7%CA%B0%B2%C8%AB%D6%AA%CA%B6&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        	<a href="http://shell.cnfol.com/tags/%B5%DA%C8%FD%B7%BD%D6%A7%B8%B6" target="_blank"><b>第三方支付</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%B5%DA%C8%FD%B7%BD%D6%A7%B8%B6&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        	<a href="http://shell.cnfol.com/tags/P2P%CD%F8%C2%E7%C8%DA%D7%CA%C6%BD%CC%A8" target="_blank"><b>P2P网络融资平台</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=P2P%CD%F8%C2%E7%C8%DA%D7%CA%C6%BD%CC%A8&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        	<a href="http://shell.cnfol.com/tags/%B4%F3%CA%FD%BE%DD%BD%F0%C8%DA" target="_blank"><b>大数据金融</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%B4%F3%CA%FD%BE%DD%BD%F0%C8%DA&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        	<a href="http://shell.cnfol.com/tags/%D6%DA%B3%EF" target="_blank"><b>众筹</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%D6%DA%B3%EF&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+			</div>
+    		<div class="LstR Cf">
+        	<a href="http://shell.cnfol.com/tags/%D0%C5%CF%A2%BB%AF%BD%F0%C8%DA%BB%FA%B9%B9" target="_blank"><b>信息化金融机构</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%D0%C5%CF%A2%BB%AF%BD%F0%C8%DA%BB%FA%B9%B9&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        	<a href="http://shell.cnfol.com/tags/%D6%D0%BD%F0%D4%DA%CF%DF%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%B2%FA%C6%B7" target="_blank"><b>互联网金融门户</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%C3%C5%BB%A7&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        	<a href="http://shell.cnfol.com/tags/%C0%E0%D3%E0%B6%EE%B1%A6%B2%FA%C6%B7" target="_blank"><b>类余额宝产品</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%C0%E0%D3%E0%B6%EE%B1%A6%B2%FA%C6%B7&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+			<a href="http://shell.cnfol.com/tags/%B8%F7%B4%F3%D0%D0%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%B2%FA%C6%B7" target="_blank"><b>各大行互联网金融产品</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%B8%F7%B4%F3%D0%D0%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%B2%FA%C6%B7&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+			<a href="http://shell.cnfol.com/tags/%B8%F7%B4%F3%D0%D0%BF%CD%BB%A7%B7%FE%CE%F1%D6%AA%CA%B6" target="_blank"><b>各大行客户服务知识</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%B8%F7%B4%F3%D0%D0%BF%CD%BB%A7%B7%FE%CE%F1%D6%AA%CA%B6&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+			<a href="http://shell.cnfol.com/tags/%BB%F9%BD%F0%D2%F8%D0%D0%B4%D3%D2%B5%BB%F9%B4%A1%D6%AA%CA%B6" target="_blank"><b>基金银行从业基础知识</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%BB%F9%BD%F0%D2%F8%D0%D0%B4%D3%D2%B5%BB%F9%B4%A1%D6%AA%CA%B6&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+			<a href="http://shell.cnfol.com/tags/%BB%EE%B6%AF%CF%E0%B9%D8%D0%C5%CF%A2" target="_blank"><b>活动相关信息</b></a>
+            <p>
+            	<script src="http://tags.js.cnfol.com/tag_news.php?tag=%BB%EE%B6%AF%CF%E0%B9%D8%D0%C5%CF%A2&record=5&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </p>
+        </div>
+    </div>
+</div>
+<!--Main End-->
+
+<!--右侧浮动 Start-->
+<div id="FixedRight" class="FixedRight" style="width:143px;height:auto;">
+	<a class="Cls" title="关闭" onclick="document.getElementById('FixedRight').style.display='none'" href="javascript:void(0);">X</a>
+    <div class="Pre">
+    	<img src="http://hs.cnfol.com/ue/Imgs/Klg/2016/CodeR.png" />
+    </div>
+</div>
+<!--右侧浮动 End-->
+<a href="#top" class="GoTop" id="GoTop" style="display:none;"></a>
+
+<script src="http://hs.cnfol.com/f=Cm/Js/Base.js,Cm/Js/Jquery16.js" type="text/javascript"></script>
+<script type="text/javascript">
+//回顶
+window.onscroll=function(){
+	(document.body.scrollTop||document.documentElement.scrollTop)==0?C.G('GoTop').style.display='none':C.G('GoTop').style.display='block';
+}
+
+</script>
+
+
+</body>
+</html>

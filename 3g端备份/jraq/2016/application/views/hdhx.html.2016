@@ -1,0 +1,12 @@
+<!--Here Start-->
+<div class="W960 Here">
+	<span>当前位置：</span>
+		<a href="<?=BASE_URL?>" target="_blank">首页</a>
+	<span>&gt;&gt;活动花絮</span>
+</div>
+<!--Here End-->
+<!--活动花絮 Start-->
+<div class="WBac Cf">
+	<script src="http://he.js.cnfol.com/index_new.php/id=2038&br=0"></script>
+</div>
+<!--活动花絮 End-->

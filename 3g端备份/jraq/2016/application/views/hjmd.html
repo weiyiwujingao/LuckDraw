@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta name="baidu-tc-cerfication" content="514a234c252ea9c06b9c0b37a11ff5f0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1,user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>获奖名单-2016年福建省普及互联网金融安全知识活动</title>
+<link type="text/css" rel="stylesheet" href="http://hs.3g.cnfol.com/ue/Css/Klg/3GKlg2016.css?v=201602181540" />
+</head>
+<body>
+<!--Top Start-->
+<header class="TopBar"><img src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/3GBanner5.png?v=20160304"></header>
+<!--Top End-->
+<!--Main Start-->
+<article class="Main Cf">
+	<div class="TitMD TitM8"></div>
+    <div class="IndDv8 Cf">
+    	<div class="WLTitM">本次获奖名单如下(包含PC端和手机端)：</div>
+    	<div class="WLBx Cf" id="List">
+        	<?php if(!empty($data) && is_array($data)):?>
+			<?php foreach($data as $dataVal):?>
+				<p class="Cf">
+					<b><?=$dataVal['username']?></b>
+					<span><?=$dataVal['giftName']?></span>
+					<em><?=$dataVal['time']?></em>
+				</p>
+			<?php endforeach;?>
+			<?php else :?>
+			<p>暂无获奖记录</p>
+			<?php endif;?>
+        </div>
+		<?php if(!empty($pageLink)) echo $pageLink; ?>
+        <!--<a href="javascript:void(0);" id="Loading" onClick="Load()" class="LoadM">加载更多</a>-->
+        <div class="CjRuleM Cf">
+        	<p>抽到168理财网的红包后由系统自动发放到您的中金在线旗下互联网理财平台账户，抽到iPhone6s、10元话费或精美相框后会弹出提示框，填写手机号码，活动结束后，客服（电话：400-8888-366）会联系用户领奖。 中金在线网址：<a href="http://www.cnfol.com" target="_blank">www.cnfol.com</a></p>
+            <p>中金在线旗下互联网理财平台网址：<a href="http://www.168p2p.com" target="_blank">www.168p2p.com</a></p>
+        	<p>中金在线客服电话：400-8888-366</p>
+        </div>
+    </div>
+</article>
+<!--Main End-->
+<!--Foot Start-->
+<article class="FtCopy Mt20 Tc">copyright ©2015-2016  移动中金在线</article>
+<!--Foot End-->
+<script src="http://hs.3g.cnfol.com/f=ue/Js/Cms/JqPack.js?v=201602172043" type="text/javascript"></script>
+<script>
+//加载更多
+function Load(){
+	$('#Loading').attr('onClick','');//不可重复点击
+	$('#Loading').html('加载中');
+	
+	/*===========测试加载内容，上环境后删除 Start===========*/
+	setTimeout(function(){
+		$('#List').append('<p class="Cf"><b>1361234****（福建）</b><span>100元红包</span><em>12-16</em></p>');
+		$('#Loading').attr('onClick','Load()');//恢复可点击
+		$('#Loading').html('加载更多');
+	},1000);
+	return;
+	/*===========测试加载内容，上环境后删除 End===========*/
+	
+	$.ajax({
+		url: '',
+		cache: false,
+		type: 'post',
+		dataType: 'json',
+		success: function(data){
+			if(data.flag==0){//可加载
+				$('#List').append(data.info);//添加内容
+				$('#Loading').attr('onClick','Load()');//恢复可点击
+				$('#Loading').html('加载更多');
+			}else{//加载完
+				$('#Loading').html('加载完成');
+			}
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+			alert('网络繁忙，请稍后再试！');
+			return false;
+		}
+	});
+}
+</script>
+</script>
+<!--统计代码-->
+<script type="text/javascript" src="http://hs.3g.cnfol.com/3gcnfol/tongji1.js"></script>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</body>
+</html>

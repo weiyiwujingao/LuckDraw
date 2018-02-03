@@ -1,0 +1,1706 @@
+<?php
+ // mktime: 1456024427
+ return array (
+  'contents' => 
+  array (
+    0 => 
+    array (
+      'username' => '133****0457(北京)',
+      'phone' => '15699856698',
+      'giftName' => '10元话费',
+      'mark' => 2,
+      'time' => '20160221',
+    ),
+    1 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '13699852236',
+      'giftName' => '10元话费',
+      'mark' => 2,
+      'time' => '20160221',
+    ),
+    2 => 
+    array (
+      'username' => '133****0457',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160221',
+    ),
+    3 => 
+    array (
+      'username' => '133****0457',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160221',
+    ),
+    4 => 
+    array (
+      'username' => 'qq:******0060',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160221',
+    ),
+    5 => 
+    array (
+      'username' => '133****0457',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    6 => 
+    array (
+      'username' => '133****0457',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    7 => 
+    array (
+      'username' => '133****0457',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    8 => 
+    array (
+      'username' => '133****0457',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    9 => 
+    array (
+      'username' => '133****0457',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    10 => 
+    array (
+      'username' => '133****0457',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    11 => 
+    array (
+      'username' => 'qq:******0060',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    12 => 
+    array (
+      'username' => 'zj:******5320',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    13 => 
+    array (
+      'username' => 'zj:******1324',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    14 => 
+    array (
+      'username' => 'CE-3****56(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    15 => 
+    array (
+      'username' => '138****8535(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    16 => 
+    array (
+      'username' => 'CE-5****15(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    17 => 
+    array (
+      'username' => '136****3672',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    18 => 
+    array (
+      'username' => 'zj:******4337',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    19 => 
+    array (
+      'username' => '139****8677',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    20 => 
+    array (
+      'username' => 'CE-1****78(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    21 => 
+    array (
+      'username' => 'CE-6****35(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    22 => 
+    array (
+      'username' => 'sin:********5110(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    23 => 
+    array (
+      'username' => 'zj:******5122',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    24 => 
+    array (
+      'username' => 'CE-6****23',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    25 => 
+    array (
+      'username' => 'zj:******7312',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    26 => 
+    array (
+      'username' => 'CE-1****28(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    27 => 
+    array (
+      'username' => '139****2614(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    28 => 
+    array (
+      'username' => 'CE-4****86(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    29 => 
+    array (
+      'username' => 'sin:********8821',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    30 => 
+    array (
+      'username' => 'sin:********3158',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    31 => 
+    array (
+      'username' => '136****8262',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    32 => 
+    array (
+      'username' => 'zj:******9697(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    33 => 
+    array (
+      'username' => 'CE-1****26(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    34 => 
+    array (
+      'username' => 'zj:******9535(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    35 => 
+    array (
+      'username' => '136****4854',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    36 => 
+    array (
+      'username' => 'qq:401****224',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    37 => 
+    array (
+      'username' => 'sin:********9734',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    38 => 
+    array (
+      'username' => 'zj:******1751(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    39 => 
+    array (
+      'username' => 'CE-8****42(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    40 => 
+    array (
+      'username' => 'CE-7****20(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    41 => 
+    array (
+      'username' => 'CE-6****31',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    42 => 
+    array (
+      'username' => 'zj:******4435',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    43 => 
+    array (
+      'username' => 'qq:490****959',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    44 => 
+    array (
+      'username' => 'zj:******4986(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    45 => 
+    array (
+      'username' => 'sin:********4907(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    46 => 
+    array (
+      'username' => '135****2975(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    47 => 
+    array (
+      'username' => 'qq:242****670',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    48 => 
+    array (
+      'username' => '137****1421',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    49 => 
+    array (
+      'username' => 'CE-1****21',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    50 => 
+    array (
+      'username' => 'CE-8****93(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    51 => 
+    array (
+      'username' => 'qq:903****942(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    52 => 
+    array (
+      'username' => 'sin:********1853(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    53 => 
+    array (
+      'username' => 'qq:505****600',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    54 => 
+    array (
+      'username' => '135****9689',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    55 => 
+    array (
+      'username' => 'qq:509****976',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    56 => 
+    array (
+      'username' => 'qq:469****550(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    57 => 
+    array (
+      'username' => 'qq:511****997(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    58 => 
+    array (
+      'username' => 'sin:********1825(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    59 => 
+    array (
+      'username' => 'CE-9****52',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    60 => 
+    array (
+      'username' => '138****5239',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    61 => 
+    array (
+      'username' => 'qq:824****250',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    62 => 
+    array (
+      'username' => 'sin:********5215(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    63 => 
+    array (
+      'username' => '137****9076(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    64 => 
+    array (
+      'username' => 'sin:********2870(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    65 => 
+    array (
+      'username' => 'qq:961****543',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    66 => 
+    array (
+      'username' => 'CE-4****30',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    67 => 
+    array (
+      'username' => 'sin:********5721',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    68 => 
+    array (
+      'username' => '136****6888(江西)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    69 => 
+    array (
+      'username' => 'CE-1****82(江西)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    70 => 
+    array (
+      'username' => 'CE-1****30(江西)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    71 => 
+    array (
+      'username' => 'sin:********5602',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    72 => 
+    array (
+      'username' => 'zj:******9786',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    73 => 
+    array (
+      'username' => 'zj:******4126',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    74 => 
+    array (
+      'username' => 'sin:********6519(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    75 => 
+    array (
+      'username' => 'qq:181****932(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    76 => 
+    array (
+      'username' => '135****1277(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    77 => 
+    array (
+      'username' => 'zj:******4850',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    78 => 
+    array (
+      'username' => 'qq:482****118',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    79 => 
+    array (
+      'username' => 'zj:******7991',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    80 => 
+    array (
+      'username' => 'qq:532****606(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    81 => 
+    array (
+      'username' => '136****4310(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    82 => 
+    array (
+      'username' => 'zj:******6660(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    83 => 
+    array (
+      'username' => '138****5050',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    84 => 
+    array (
+      'username' => 'zj:******1324',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    85 => 
+    array (
+      'username' => 'qq:931****679',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    86 => 
+    array (
+      'username' => '137****6910(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    87 => 
+    array (
+      'username' => 'CE-5****96(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    88 => 
+    array (
+      'username' => 'sin:********2832(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    89 => 
+    array (
+      'username' => 'qq:444****525',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    90 => 
+    array (
+      'username' => '136****4734',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    91 => 
+    array (
+      'username' => 'zj:******7075',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    92 => 
+    array (
+      'username' => 'sin:********9059',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    93 => 
+    array (
+      'username' => 'zj:******9156(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    94 => 
+    array (
+      'username' => 'zj:******8506(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    95 => 
+    array (
+      'username' => 'zj:******5351(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    96 => 
+    array (
+      'username' => 'qq:843****525',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    97 => 
+    array (
+      'username' => 'CE-3****72',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    98 => 
+    array (
+      'username' => 'CE-6****16',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    99 => 
+    array (
+      'username' => 'sin:********7750',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    100 => 
+    array (
+      'username' => '138****7874(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    101 => 
+    array (
+      'username' => 'sin:********4969(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    102 => 
+    array (
+      'username' => 'zj:******7158(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    103 => 
+    array (
+      'username' => 'qq:289****987',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    104 => 
+    array (
+      'username' => 'zj:******4647',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    105 => 
+    array (
+      'username' => '139****9635',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    106 => 
+    array (
+      'username' => 'CE-7****17',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    107 => 
+    array (
+      'username' => 'CE-4****36(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    108 => 
+    array (
+      'username' => 'qq:741****662(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    109 => 
+    array (
+      'username' => 'qq:558****431(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    110 => 
+    array (
+      'username' => 'qq:915****410',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    111 => 
+    array (
+      'username' => '136****3449',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    112 => 
+    array (
+      'username' => 'CE-2****17',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    113 => 
+    array (
+      'username' => 'CE-7****82',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    114 => 
+    array (
+      'username' => 'sin:********3498(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    115 => 
+    array (
+      'username' => 'CE-4****94(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    116 => 
+    array (
+      'username' => 'sin:********7879(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    117 => 
+    array (
+      'username' => 'qq:936****901',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    118 => 
+    array (
+      'username' => 'zj:******1409',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    119 => 
+    array (
+      'username' => 'qq:904****392',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    120 => 
+    array (
+      'username' => 'qq:390****331',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    121 => 
+    array (
+      'username' => '136****7275(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    122 => 
+    array (
+      'username' => 'sin:********1697(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    123 => 
+    array (
+      'username' => 'sin:********5048(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    124 => 
+    array (
+      'username' => 'sin:********1516',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    125 => 
+    array (
+      'username' => '139****7340',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    126 => 
+    array (
+      'username' => 'zj:******8808',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    127 => 
+    array (
+      'username' => 'sin:********1748',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    128 => 
+    array (
+      'username' => 'sin:********6734(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    129 => 
+    array (
+      'username' => 'CE-4****38(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    130 => 
+    array (
+      'username' => 'sin:********8188(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    131 => 
+    array (
+      'username' => 'qq:118****536',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    132 => 
+    array (
+      'username' => '135****9861',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    133 => 
+    array (
+      'username' => 'sin:********5383',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    134 => 
+    array (
+      'username' => '138****4111',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    135 => 
+    array (
+      'username' => 'sin:********5673(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    136 => 
+    array (
+      'username' => 'zj:******3404(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    137 => 
+    array (
+      'username' => '139****9585(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    138 => 
+    array (
+      'username' => '135****5231',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    139 => 
+    array (
+      'username' => '137****6875',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    140 => 
+    array (
+      'username' => 'qq:304****943',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    141 => 
+    array (
+      'username' => 'CE-6****64',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    142 => 
+    array (
+      'username' => 'CE-7****67(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    143 => 
+    array (
+      'username' => 'CE-6****49(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    144 => 
+    array (
+      'username' => 'CE-9****59(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    145 => 
+    array (
+      'username' => '136****7625',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    146 => 
+    array (
+      'username' => '138****1180',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    147 => 
+    array (
+      'username' => 'CE-4****62',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    148 => 
+    array (
+      'username' => 'CE-1****79',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    149 => 
+    array (
+      'username' => 'sin:********7137(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    150 => 
+    array (
+      'username' => 'qq:611****176(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    151 => 
+    array (
+      'username' => 'qq:605****822(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    152 => 
+    array (
+      'username' => '139****7224',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    153 => 
+    array (
+      'username' => '139****7055',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    154 => 
+    array (
+      'username' => '139****3891',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    155 => 
+    array (
+      'username' => '135****6343',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    156 => 
+    array (
+      'username' => 'qq:132****555(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    157 => 
+    array (
+      'username' => 'qq:621****505',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    158 => 
+    array (
+      'username' => 'CE-6****17',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    159 => 
+    array (
+      'username' => 'qq:271****295',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    160 => 
+    array (
+      'username' => 'sin:********2381',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    161 => 
+    array (
+      'username' => 'sin:********4042(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    162 => 
+    array (
+      'username' => 'qq:672****726',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    163 => 
+    array (
+      'username' => 'sin:********1122',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    164 => 
+    array (
+      'username' => 'CE-8****73',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    165 => 
+    array (
+      'username' => 'qq:763****121',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    166 => 
+    array (
+      'username' => 'zj:******6677(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    167 => 
+    array (
+      'username' => 'qq:776****990',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    168 => 
+    array (
+      'username' => 'qq:691****313',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    169 => 
+    array (
+      'username' => '138****7066',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    170 => 
+    array (
+      'username' => 'CE-1****84',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    171 => 
+    array (
+      'username' => 'zj:******1714(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    172 => 
+    array (
+      'username' => '137****2534',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    173 => 
+    array (
+      'username' => 'zj:******8847',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    174 => 
+    array (
+      'username' => 'sin:********9605',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    175 => 
+    array (
+      'username' => '139****7385',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    176 => 
+    array (
+      'username' => '136****8522(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    177 => 
+    array (
+      'username' => '138****4391',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    178 => 
+    array (
+      'username' => 'sin:********3334',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    179 => 
+    array (
+      'username' => 'sin:********9841',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    180 => 
+    array (
+      'username' => 'qq:540****519',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    181 => 
+    array (
+      'username' => 'CE-2****62(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    182 => 
+    array (
+      'username' => 'zj:******2959',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    183 => 
+    array (
+      'username' => 'zj:******4822',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    184 => 
+    array (
+      'username' => 'sin:********3718',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    185 => 
+    array (
+      'username' => 'CE-7****44',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    186 => 
+    array (
+      'username' => 'qq:751****494(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    187 => 
+    array (
+      'username' => 'zj:******4007',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    188 => 
+    array (
+      'username' => '137****6160',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    189 => 
+    array (
+      'username' => '139****4216',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160220',
+    ),
+    190 => 
+    array (
+      'username' => 'sin:********4435',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    191 => 
+    array (
+      'username' => '137****4330(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    192 => 
+    array (
+      'username' => '138****9026',
+      'phone' => '',
+      'giftName' => '25元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    193 => 
+    array (
+      'username' => '133****0457(江苏)',
+      'phone' => '136552588588',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    194 => 
+    array (
+      'username' => '133****0457(江西)',
+      'phone' => '13699528875',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    195 => 
+    array (
+      'username' => '133****0457(江西)',
+      'phone' => '13699528875',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    196 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    197 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    198 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    199 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    200 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    201 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    202 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    203 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    204 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    205 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    206 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    207 => 
+    array (
+      'username' => '133****0457(广东)',
+      'phone' => '18814188888',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    208 => 
+    array (
+      'username' => 'zj:******2776',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    209 => 
+    array (
+      'username' => 'zj:******2776',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    210 => 
+    array (
+      'username' => 'zj:******2776',
+      'phone' => '',
+      'giftName' => '100元红包',
+      'mark' => 1,
+      'time' => '20160220',
+    ),
+    211 => 
+    array (
+      'username' => 'zj:******2776',
+      'phone' => 'zj:******2776',
+      'giftName' => '50元红包',
+      ',mark' => 1,
+      'time' => '20160220',
+    ),
+  ),
+  'expire' => 0,
+  'mtime' => 1456024427,
+)
+?>

@@ -1,0 +1,311 @@
+<!--Nav Start-->
+<div class="Nav Mt20">
+	<div class="NavBg Cf">
+    	<a href="<?=base_url()?>" target="_blank" class="Nlink1 Cf"><i class="NkL"></i><span>首页</span><i class="NkR"></i></a>
+    	<a href="<?=base_url()?>" target="_blank" class="Nlink2 Cf"><i class="NkL"></i><span>福建互联网金融</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'hdjs.html'?>" target="_blank" class="Nlink3 Cf"><i class="NkL"></i><span>活动介绍</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'yjwd.html'?>" target="_blank" class="Nlink4 Cf Cur"><i class="NkL"></i><span>有奖问答</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'wjdc.html'?>" target="_blank" class="Nlink5 Cf"><i class="NkL"></i><span>问卷调查</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'zsg.html'?>" target="_blank" class="Nlink6 Cf"><i class="NkL"></i><span>知识馆</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'hjmd.html'?>" target="_blank" class="Nlink7 Cf"><i class="NkL"></i><span>获奖名单</span><i class="NkR"></i></a>
+    </div>
+</div>
+<!--Nav End-->
+
+<!--抽奖 Start-->
+<div class="W960 CjBx Mt50 Cf">
+	<div class="TitSBx"><b class="TitC6"></b></div>
+	<div class="CjR Cf">
+    	<div class="CjRBx1">
+        	<div class="CjRBxMTit Cf">
+                <b>获奖名单</b>
+                <a href="<?=base_url().'hjmd.html'?>" target="_blank" class="More">更多&gt;&gt;</a>
+            </div>
+        	<div class="CjRBxMaq Cf" id="demo">
+				<div id="demo1">
+					<?php if(!empty($windList) && is_array($windList)):?>
+						<?php foreach($windList as $windListVal):?>
+							<p class="Cf"><span>账 号：<?=$windListVal['username']?></span><em><?=$windListVal['giftName']?></em></p>
+						<?php endforeach;?>
+					<?php endif;?>
+                </div>
+				<div id="demo2"></div>
+            </div>
+        </div>
+        <div class="CjRBx2">
+            <img src="http://hs.cnfol.com/ue/Imgs/Klg/2016/CodeWenda.png" />
+            <h4 class="Tc">扫描二维码，手机参加答题抽奖！</h4>
+        </div>
+    </div>
+	<div class="CjL Cf">
+        <div id="DialBg" class="DialBg">
+            <img class="ieRadius" src="http://hs.cnfol.com/ue/Imgs/Klg/2016/Big.png?v=20160217" width="460" height="565" />
+            <img id="D10_8" class="Needle" src="http://hs.cnfol.com/ue/Imgs/Klg/2016/BigBtn1.png?v=20160217" />
+        </div>
+    </div>
+    <div class="Clr"></div>
+    <div class="CjRule Cf">
+    	<b>抽奖规则</b>
+    	<p>
+         1、用户抽中iPhone6s、10元话费或精美相框后，请填写正确的手机号码，待活动结束后，奖品将统一发放；<br>
+		 2、用户抽中互联网理财平台25元、50元、100元红包后，系统会直接发放到中金在线理财平台账户里；<br>
+		 3、每人每天有2次抽奖机会，活动期间，请您保持手机畅通。<br>
+        </p>
+    </div>
+</div>
+<!--抽奖 End-->
+
+<!--弹框 Start-->
+<div class="WnBg" id="WnBg"></div>
+<!--168登陆框 Start-->
+<div class="WinBox dengluform" id="Login">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <h3>请先登录中金在线理财平台</h3>
+    <span class="WinClose" onClick="winHid();"></span>
+    <div class="dlformw" style="position:relative">
+        <form id="jsForm" action="<?=$mLogin?>" method="post">
+            <div class="ui-form-item">
+                <input type="text" placeholder="手机号" class="ui-input shouji" name="phone" id="shouji" />
+                <b class="sjb"></b>
+                <span class="error" id="buttel" style="display:none"></span>
+            </div>
+            <div style="clear:both"></div>
+            <div class="ui-form-item">
+                <input type="password" placeholder="密码" maxlength="16" class="ui-input" name="password" id="newpassword" />
+                <b class="mmb"></b>
+                <span class="error" id="butmm" style="display:none"></span>
+            </div>
+            <div style="clear:both"></div>
+			<?php if(!empty($callback_error)):?>
+				<div class="ui-form-item tipabud errorTip" style="margin-bottom:5px; clear:#F00" id="error"><?=$callback_error?></div>
+			<?php endif?>
+            <div class="ui-form-item tipabud">
+                <a href="http://www.168p2p.com/?user&q=reset_password_check" class="buluea">找回密码</a><a href="http://www.168p2p.com/?user&q=phone_reg" class="yellowea">免费注册</a>
+            </div>
+            <span style=" width:100%;position:absolute;top:160px;_top:180px;left:0;">
+            <div class="ui-form-item">
+                <input type="submit" class="btntj" value="立即登录" />
+            </div>
+            <dl class="qitadlfs">
+                <dt>其他方式登录</dt>
+                <dd>
+                   <a href="<?=$qqLogin?>" class="qiuqiu"></a>
+				   <a href="<?=$wxLogin?>" class="wweixin"></a>
+				   <a href="<?=$sinaLogin?>" class="wweibo"></a>
+				   <a href="<?=$zjLogin?>" class="zzhongj"></a>
+                </dd>
+            </dl>
+            </span>
+        </form>
+    </div>
+</div>
+<!--168登陆框 End-->
+   
+
+<div class="WnBx CjAltBx Cf" id="Dia1">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <div class="CjAltTxt">
+		<div class="AltTxt1 Cf">
+            <span>恭喜抽中<font id='Gds'></font></span><br>
+            请输入电话号码，我们将与您联系：<br>
+            <input type="text" id="Phone" name="" value="" class="CjAltIpt1">
+        </div>
+        <a class="CjAltBtn" href="javascript:SendTel();">好</a>
+    </div>
+</div>
+<div class="WnBx CjAltBx Cf" id="Dia2">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <div class="CjAltTxt">
+		<div class="AltTxt2 Cf">很遗憾，这次您未中奖！</div>
+        <a class="CjAltBtn" href="javascript:Dialog.Close();">好</a>
+    </div>
+</div>
+<div class="WnBx CjAltBx Cf" id="Dia3">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <div class="CjAltTxt">
+		<div class="AltTxt3 Cf">
+        	您今日<font color="#0057c2">2次</font>抽奖已用完，明天再来吧！<br>
+            赶快向好友们分享吧~
+        </div>
+        <a class="CjAltBtn" href="javascript:void(0);" onClick="Dialog.Close();window.open('http://service.t.sina.com.cn/share/share.php?ralateUid=1649470535&appkey=383706083&url=http://jraq.cnfol.com/2016&title=2016年互联网金融安全知识问答活动&source=jraq.cnfol.com/2016&sourceUrl=http://jraq.cnfol.com/2016');">好</a>
+    </div>
+</div>
+<div class="WnBx CjAltBx Cf" id="Dia4">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <div class="CjAltTxt">
+		<div class="AltTxt4 Cf">
+        	<span>中奖啦</span><br>
+            <p id="Nums"></p>
+        </div>
+        <a class="CjAltBtn" href="<?=base_url().'yjwd.html'?>">继续答题</a>
+		<a class="CjAltBtn" href="http://www.168p2p.com/?user&q=redbag" target="_blank">查看我的红包</a>
+    </div>
+</div>
+<!--弹框 End-->
+<!--右侧浮动 Start-->
+<div id="FixedRight" class="FixedRight" style="width:143px;height:auto;">
+	<a class="Cls" title="关闭" onclick="document.getElementById('FixedRight').style.display='none'" href="javascript:void(0);">X</a>
+    <div class="Pre">
+    	<img src="http://hs.cnfol.com/ue/Imgs/Klg/2016/CodeR3.png?v=20160301" />
+    </div>
+</div>
+<!--右侧浮动 End-->
+<!--<a href="#top" class="GoTop" id="GoTop" style="display:none;"></a>-->
+<a href="javascript:void(0);" onclick="document.documentElement.scrollTop=0;document.body.scrollTop=0;" class="GoTop" id="GoTop" style="display:none;"></a>
+
+
+<script type="text/javascript" src="http://hs.cnfol.com/f=Cm/Js/Base.js,Cm/Js/Dialog.js,ue/Js/Klg/JQ172.js,ue/Js/Klg/JQRotate.2.2.js,ue/Js/Klg/JQEasing.min.js?v=201602171721"></script>
+<script type="text/javascript" src="<?=base_url().'scripts/jquery.cookie.js'?>"></script>
+<script type="text/javascript">
+
+//回顶
+window.onscroll=function(){
+	(document.body.scrollTop||document.documentElement.scrollTop)==0?C.G('GoTop').style.display='none':C.G('GoTop').style.display='block';
+}
+//中话费发送手机号
+function SendTel(){
+	var Tel = C.G('Phone').value;
+	if(Tel==''){
+		alert('请填写电话号码');
+		return;
+	}
+	$.ajax({
+		url: '<?=base_url()?>phone.html',
+		cache: false,
+		type: 'post',
+		dataType: 'json',
+		data: {phone:Tel,username:"<?=$username?>",key:"<?=$key?>",t:<?=$time?>},
+		success: function(data){
+			Dialog.Close();
+			getWindList();
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+			alert('网络繁忙，请重新提交！');
+			return false;
+		}
+	});
+}
+//抽奖
+$(function(){
+	if($.cookie('a_k')){
+		var IsLogin= 1;
+	}else{
+		var IsLogin=0;
+	}
+	var rotateFunc = function(awards,angle,text){
+		$('#D10_8').stopRotate();
+		$("#D10_8").rotate({
+			angle:0, 
+			duration:5000, 
+			animateTo:angle+3600,
+			callback:function(){
+				if(awards==2 || awards==6 || awards==8){
+					Dialog('WnBg','Dia4');
+					C.G('Nums').innerHTML=text;
+					getWindList();
+				}else if(awards==3){
+					Dialog('WnBg','Dia2');
+				}else if(awards==4 || awards==5 ){
+					Dialog('WnBg','Dia1');
+					C.G('Gds').innerHTML=text;
+				}else if(awards==7){
+					Dialog('WnBg','Dia3');
+				}else{
+					alert('系统错误，请稍后再试');
+				}
+			}
+		});
+	};
+	$("#D10_8").rotate({
+		bind:{
+			click: function(){
+				var $souceurl = '<?=base_url()?>newgifts.html';
+				if(IsLogin==0){
+					Dialog('WnBg','Login');
+					return;
+				}
+				
+				$.ajax({
+					url: $souceurl,
+					cache: false,
+					type: 'post',
+					dataType: 'json',
+					data: {username:"<?=$username?>",userid:"<?=$userid?>",key:"<?=$key?>",t:<?=$time?>},
+					success: function(jsondata){
+						var data = [1,2,3,4,5,6,7,8];
+							data = data[jsondata.flag];
+						switch(jsondata.flag){
+							case '1':
+								rotateFunc(1,0,'iPhone6s');
+							break;
+							case '2':
+								rotateFunc(2,45,'25元红包');
+							break;
+							case '3':
+								rotateFunc(3,90,'谢谢参与');
+							break;
+							case '4':
+								rotateFunc(4,135,'10元话费');
+							break;
+							case '5':
+								rotateFunc(5,180,'精美相框');
+							break;
+							case '6':
+								rotateFunc(6,225,'100元红包');								
+							break;
+							case '7':
+								Dialog('WnBg','Dia3');
+							break;
+							case '8':
+								rotateFunc(8,315,'50元红包');
+							break;
+							default:
+								
+							break;
+						}
+						
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown){
+						alert('网络繁忙，请稍后再试！');
+						return false;
+					}
+				});
+			}
+		}
+	});
+});
+//获奖名单
+function getWindList()
+{
+	var $SubUrl = '<?=base_url()?>wind.html';
+
+	$.ajax({
+		url: $SubUrl,
+		cache:false,
+		type: 'post',
+		dataType: 'json',
+		data: {key:"<?=$key?>",t:<?=$time?>},
+		success: function(jsondata)
+		{
+			var tabres = '';
+			switch(jsondata.flag)
+			{
+				case '00':
+					$.each(jsondata.list, function(key,item)
+					{
+						//tabres += "<p>手机号：" + item['phone'] + "<span>" + item['giftName'] + "</span></p>";
+						tabres += '<p class="Cf"><span>账 号：' + item['username'] + '</span><em>' + item['giftName'] + '</em></p>'
+					});
+				$('#demo1').html(tabres);
+				//$('#demo2').html(tabres);
+				break;
+			}
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+			YjBtn.style.display = "block";
+			//alert('数据提交失败，请重新提交！');
+			return false;
+		}
+	});
+}
+</script>

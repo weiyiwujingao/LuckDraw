@@ -1,0 +1,720 @@
+<?php
+ // mktime: 1457106746
+ return array (
+  'contents' => 
+  array (
+    18626218011 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 5,
+      ),
+      'phone' => '',
+    ),
+    13835323697 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      'phone' => '',
+    ),
+    18506013052 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 5,
+      ),
+      'phone' => '',
+    ),
+    13843746675 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    18643754710 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15944730250 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13677604339 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15944727905 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'zj:CE-6272776' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => '6',
+        1 => '6|红包领取失败',
+      ),
+      'phone' => '',
+    ),
+    'sina:1457016339' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13959140318 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15181839990 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    18159954517 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'qq:1457053829' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15080044495 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15600043860 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13940328669 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 8,
+      ),
+      'phone' => '',
+    ),
+    13983174962 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'qq:1445310060' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'sina:1457061222' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 5,
+      ),
+      'phone' => '',
+    ),
+    13343452852 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    18659184492 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'wx:145706620659' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      'phone' => '',
+    ),
+    13703534280 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 5,
+      ),
+      'phone' => '',
+    ),
+    18506028233 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13943720914 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13943719587 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13943727859 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 8,
+      ),
+      'phone' => '',
+    ),
+    13943728179 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13766014178 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15944725086 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15943781146 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15943766401 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'dingal520@163.com' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15943726634 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15844769120 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15844735850 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 5,
+      ),
+      'phone' => '',
+    ),
+    15844767891 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'qq:1445300470' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'qq:1405040451' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15843768053 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15043739217 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15043737121 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13338550457 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => '8',
+      ),
+      'phone' => '',
+    ),
+    'qq:1457075063' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13515013847 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13583500750 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      'phone' => '',
+    ),
+    'wx:143946803862' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13256956870 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13899919358 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    18204371273 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15944739291 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'qq:1457008682' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      'phone' => '',
+    ),
+    'qq:1456992389' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'shen_lan88' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'qq:1457081822' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13881984106 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'qq:1404695257' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15712761977 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+        1 => '2|红包领取失败',
+      ),
+      'phone' => '',
+    ),
+    13611507796 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 8,
+        1 => '8|红包领取失败',
+      ),
+      'phone' => '',
+    ),
+    'wx:143713413317' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      'phone' => '',
+    ),
+    15944738449 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+        0 => 2,
+        1 => '2|红包领取失败',
+      ),
+      'phone' => '',
+    ),
+    15944738685 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13585448469 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13522551998 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      'phone' => '',
+    ),
+    15943782090 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15843766823 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15043710509 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15943783803 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15843769742 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15844720482 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15943729236 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15943767912 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15948954563 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15843768701 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13766014273 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13943722801 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15944727501 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15843767001 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    13681052951 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+        1 => '2|红包领取失败',
+      ),
+      'phone' => '',
+    ),
+    13651816445 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    'sina:1456988074' => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+        1 => '2|红包领取失败',
+      ),
+      'phone' => '',
+    ),
+    13681627469 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      'phone' => '',
+    ),
+    15821761041 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 8,
+        1 => '8|红包领取失败',
+      ),
+      'phone' => '',
+    ),
+    18964992446 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+        1 => '2|红包领取失败',
+      ),
+      'phone' => '',
+    ),
+  ),
+  'expire' => 0,
+  'mtime' => 1457106746,
+)
+?>

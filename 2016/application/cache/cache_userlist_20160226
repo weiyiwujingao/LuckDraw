@@ -1,0 +1,28 @@
+<?php
+ // mktime: 1456394912
+ return array (
+  'contents' => 
+  array (
+    13338550457 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+        0 => '5',
+      ),
+      'phone' => '',
+    ),
+    'qq:1445310060' => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+        0 => '6',
+      ),
+      'phone' => '',
+    ),
+  ),
+  'expire' => 0,
+  'mtime' => 1456394912,
+)
+?>

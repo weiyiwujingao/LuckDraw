@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta name="baidu-tc-cerfication" content="514a234c252ea9c06b9c0b37a11ff5f0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1,user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>抽奖-2016年福建省普及互联网金融安全知识活动</title>
+<link type="text/css" rel="stylesheet" href="http://hs.3g.cnfol.com/ue/Css/Klg/3GKlg2016.css?v=201602181710" />
+</head>
+<body>
+<!--Top Start-->
+<!--<header class="TopBar"><img src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/3GBanner5.png?v=20160304"></header>-->
+<header class="TopBar"><img src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/3GBanner.png?v=20160218"></header>
+<!--Top End-->
+<!--Main Start-->
+<article class="Main Cf">
+	<div class="TitMD TitM7"></div>
+    <div class="IndDv7 Cf">
+    	<div id="DialBg" class="DialBg">
+            <img class="ieRadius" src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/Big3G.png?v=20160218" width="90%" />
+            <img id="D10_8" class="Needle" src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/BigBtnM.png?v=20160218" />
+        </div>
+        <div class="CjRuleM2 Cf">
+        	<b>抽奖规则</b>
+			<p>
+			 1、用户抽中iPhone6s、10元话费或精美相框后，请填写正确的手机号码，待活动结束后，奖品将统一发放；<br>
+			 2、用户抽中互联网理财平台25元、50元、100元红包后，系统会直接发放到中金在线理财平台账户里；<br>
+			 3、每人每天有2次抽奖机会，活动期间，请您保持手机畅通。<br>
+			</p>
+        </div>
+    </div>
+</article>
+<!--Main End-->
+<!--Foot Start-->
+<article class="FtCopy Mt20 Tc">copyright © 2003-2016 中金在线</article>
+<!--Foot End-->
+
+<!--弹框 Start-->
+<div class="WnBg" id="WnBg"></div>
+<!--168登陆框 Start-->
+<div id="Login" class="Win dengluform">
+    <h3>请先登录中金在线理财平台</h3>
+    <span onclick="Dialog.Close()" class="Wclose"></span>
+    <div class="dlformw">
+        <form id="jsForm" action="<?=$mLogin?>" method="post">
+            <div class="ui-form-item">
+                <input type="text" id="shouji" name="phone" class="ui-input shouji" placeholder="手机号">
+                <b class="sjb"></b>
+                <span class="error" id="buttel" style="display:none"></span>
+            </div>
+            <div style="clear:both"></div>
+            <div class="ui-form-item">
+                <input type="password" id="newpassword" name="password" class="ui-input" maxlength="16" placeholder="密码">
+                <b class="mmb"></b>
+                <span class="error" id="butmm" style="display:none"></span>
+            </div>
+            <div style="clear:both"></div>
+            <div class="ui-form-item tipabud">
+                <a class="buluea" href="http://www.168p2p.com/?user&q=reset_password_check">找回密码</a><a class="yellowea" href="http://www.168p2p.com/?user&q=phone_reg">免费注册</a>
+            </div>
+            <span class="ui-form-sp1">
+                <div class="ui-form-item">
+                    <input type="submit" value="立即登录" class="btntj">
+                </div>
+                <dl class="qitadlfs">
+                    <dt>其他方式登录</dt>
+                    <dd>
+                      <a class="qiuqiu" href="<?=$qqLogin?>"></a>
+                      <a class="wweixin" href="<?=$wxLogin?>"></a>
+                      <a class="wweibo" href="<?=$sinaLogin?>"></a>
+                      <a class="zzhongj" href="<?=$zjLogin?>"></a>
+                    </dd>
+                </dl>
+            </span>
+        </form>
+    </div>
+</div>
+<!--168登陆框 End-->
+
+
+<div class="WnBx CjAltBx Cf" id="Dia1">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <div class="CjAltTxt">
+		<div class="AltTxt1 Cf">
+            <span>恭喜抽中<font id="Gds"></font></span><br>
+            请输入电话号码，我们将与您联系：<br>
+            <input type="text" id="Phone" name="" value="" class="CjAltIpt1">
+        </div>
+        <a class="CjAltBtn" href="javascript:SendTel();">好</a>
+    </div>
+</div>
+<div class="WnBx CjAltBx Cf" id="Dia2">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <div class="CjAltTxt">
+		<div class="AltTxt2 Cf">很遗憾，这次您未中奖！</div>
+        <a class="CjAltBtn" href="javascript:Dialog.Close();">好</a>
+    </div>
+</div>
+<div class="WnBx CjAltBx Cf" id="Dia3">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <div class="CjAltTxt">
+		<div class="AltTxt3 Cf">
+        	您今日<font color="#0057c2">2次</font>抽奖已用完，明天再来吧！<br>
+            赶快向好友们分享吧~
+        </div>
+        <a class="CjAltBtn" href="javascript:void(0);" onClick="Dialog.Close();window.open('http://service.t.sina.com.cn/share/share.php?ralateUid=1649470535&appkey=383706083&url=http://m.3g.cnfol.com/jraq/2016&title=2016年互联网金融安全知识问答活动&source=http://m.3g.cnfol.com/jraq/2016&sourceUrl=http://m.3g.cnfol.com/jraq/2016');">好</a>
+    </div>
+</div>
+<div class="WnBx CjAltBx Cf" id="Dia4">
+	<a href="javascript:Dialog.Close();" class="AltCls">×</a>
+    <div class="CjAltTxt">
+		<div class="AltTxt4 Cf">
+        	<span>中奖啦</span><br>
+            <p id="Nums"></p>
+        </div>
+       <!-- <a class="CjAltBtn" href="javascript:Dialog.Close();">继续答题</a>-->
+	   <a class="CjAltBtn" href="<?=base_url().'yjwd.html'?>">继续答题</a>
+		<a class="CjAltBtn" href="http://www.168p2p.com/?user&q=redbag" target="_blank">查看我的红包</a>
+    </div>
+</div>
+<!--弹框 End-->
+
+<script type="text/javascript" src="http://hs.3g.cnfol.com/f=Cm/Js/Base.js,Cm/Js/Dialog.js,ue/Js/Klg/JQ172.js,ue/Js/Klg/JQRotate.2.2.js,ue/Js/Klg/JQEasing.min.js?v=201602181614"></script>
+<script type="text/javascript" src="<?=base_url().'scripts/jquery.cookie.js'?>"></script>
+<script>
+function SendTel(){
+	var Tel = C.G('Phone').value;
+	if(Tel==''){
+		alert('请填写电话号码');
+		return;
+	}
+	$.ajax({
+		url: '<?=base_url()?>phone.html',
+		cache: false,
+		type: 'post',
+		dataType: 'json',
+		data: {phone:Tel,username:"<?=$username?>",key:"<?=$key?>",t:<?=$time?>},
+		success: function(data){
+			Dialog.Close();
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+			alert('网络繁忙，请重新提交！');
+			return false;
+		}
+	});
+}
+//抽奖
+$(function(){
+	var $souceurl = "<?=base_url()?>newgifts.html";
+	if($.cookie('a_k')){
+		var IsLogin= 1;
+	}else{
+		var IsLogin=0;
+	}
+	var rotateFunc = function(awards,angle,text){
+		$('#D10_8').stopRotate();
+		$("#D10_8").rotate({
+			angle:0, 
+			duration:5000, 
+			animateTo:angle+3600,
+			callback:function(){
+				if(awards==2 || awards==6 || awards==8){
+					Dialog('WnBg','Dia4');
+					C.G('Nums').innerHTML=text;
+				}else if(awards==3){
+					Dialog('WnBg','Dia2');
+				}else if(awards==4 || awards==5){
+					Dialog('WnBg','Dia1');
+				}else if(awards==7){
+					Dialog('WnBg','Dia3');
+				}else{
+					alert('系统错误，请稍后再试');
+				}
+			}
+		});
+	};
+	$("#D10_8").rotate({
+		bind:{
+			click: function(){
+				if(IsLogin==0){
+					Dialog('WnBg','Login');
+					return;
+				}
+				$.ajax({
+					url: $souceurl,
+					cache: false,
+					type: 'post',
+					dataType: 'json',
+					data: {username:"<?=$username?>",userid:"<?=$userid?>",key:"<?=$key?>",t:<?=$time?>},
+					success: function(jsondata){
+						var data = [1,2,3,4,5,6,7,8];
+							data = data[jsondata.flag];
+						switch(jsondata.flag){
+							case '1':
+								rotateFunc(1,0,'iPhone6s');
+							break;
+							case '2':
+								rotateFunc(2,45,'25元红包');
+							break;
+							case '3':
+								rotateFunc(3,90,'谢谢参与');
+							break;
+							case '4':
+								rotateFunc(4,135,'10元话费');
+							break;
+							case '5':
+								rotateFunc(5,180,'精美相框');
+							break;
+							case '6':
+								rotateFunc(6,225,'100元红包');
+							break;
+							case '7':
+								Dialog('WnBg','Dia3');
+							break;
+							case '8':
+								rotateFunc(8,315,'50元红包');
+							break;
+							default:
+								
+							break;
+						}
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown){
+						alert('网络繁忙，请稍后再试！');
+						return false;
+					}
+				});
+			}
+		}
+	});
+});
+
+</script>
+</body>
+</html>

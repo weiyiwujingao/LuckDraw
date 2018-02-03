@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta name="baidu-tc-cerfication" content="514a234c252ea9c06b9c0b37a11ff5f0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1,user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>2016年福建省普及互联网金融安全知识活动</title>
+<link type="text/css" rel="stylesheet" href="http://hs.3g.cnfol.com/ue/Css/Klg/3GKlg2016.css?v=201602181132" />
+</head>
+<body>
+<!--Top Start-->
+<!--<header class="TopBar"><img src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/3GBanner5.png?v=20160304"></header>-->
+<header class="TopBar"><img src="http://hs.3g.cnfol.com/ue/Imgs/Klg/2016/3GBanner.png?v=20160218"></header>
+<!--Top End-->
+<!--Main Start-->
+<article class="Main Cf">
+	<div class="TitMD TitM1"></div>
+    <div class="IndDv1 Cf">
+		<script src="http://he.js.cnfol.com/index_new.php/id=2810&br=0"></script>
+    </div>
+	<div class="TitMD TitM2"></div>
+	<script src="http://he.js.cnfol.com/index_new.php/id=2811&br=0"></script>
+    <div class="TitMD TitM6"></div>
+    <div class="IndDv6 Cf">
+    	<!--饼图 Start-->
+    	<div id="container" style="width:320px;height:240px;margin:5px auto;"></div>
+    	<!--饼图 End-->
+    </div>
+	<div class="TitMD TitM3"></div>
+    <div class="IndDv3 Cf">
+		<script src="http://he.js.cnfol.com/index_new.php/id=2812&br=0"></script>
+    </div>
+	<div class="TitMD TitM4"></div>
+	<div class="IndDv4 Cf">
+    	<span>咨询热线：400-8888-366</span>
+    </div>
+</article>
+<!--Main End-->
+<!--Foot Start-->
+<article class="FtCopy Mt20 Tc">copyright © 2003-2016 中金在线</article>
+<!--Foot End-->
+<script src="http://hs.3g.cnfol.com/f=ue/Js/Cms/JqPack.js,ue/Js/Chart/highcharts.js?v=201602172043" type="text/javascript"></script>
+<script>
+//饼图
+$(function(){
+    var chart;
+    var totalMoney=50000 ;
+	var fj = parseInt("<?php echo $fjdata;?>");
+	var sh = parseInt("<?php echo $shdata;?>");
+	var gd = parseInt("<?php echo $gddata;?>");
+	var qt = parseInt("<?php echo $qtdata;?>");
+    $(document).ready(function(){
+        chart = new Highcharts.Chart({
+            chart: {//初始状态
+                renderTo: 'container',
+				backgroundColor: '#def0f6',
+                plotBackgroundColor: '#def0f6',
+                plotBorderWidth: 0,
+                plotShadow: false
+            },
+            title: {
+                text: ''
+            },
+            tooltip: {//鼠标移动到每个饼图显示的内容
+                pointFormat: '{point.name}: <b>{point.percentage}%</b>',
+                percentageDecimals: 1,
+                formatter: function() {
+                    return this.point.name;/*+':$'+totalMoney*this.point.percentage/100;*/
+                }
+            },
+            plotOptions: {
+                pie: {
+                    size:'100%',
+					center: [95, 90],
+                    borderWidth: 0,
+                    allowPointSelect: false,
+                    cursor: 'pointer',
+                    dataLabels: {
+                    	enabled: true,
+                    	color: '#000',                        
+                    	distance: -20,//通过设置这个属性，将每个小饼图的显示名称和每个饼图重叠
+                    	style: {                            
+                        	fontSize: '10px',
+                        	lineHeight: '10px'
+                    	},
+                    	formatter: function(index) {    
+                            return  '<span style="color:#00008B;font-weight:bold">' + Math.round(this.point.percentage*100)/100 + '%<\/span>';
+                       	}
+                  	},
+                 	padding:20,
+                    showInLegend: true
+                }
+            },
+			legend: {//图例位置
+            	align: 'right',
+				verticalAlign: 'middle',
+				x: -30,
+				y: 10,
+				floating: false,
+                layout: 'vertical'
+            },
+			credits: {//版权
+				enabled:false
+			},
+			exporting: {//导出图
+				enable: false
+			},
+            series: [{//设置每小个饼图的颜色、名称、百分比
+                type: 'pie',
+                name: null,
+                data: [
+                    {name:'广东',color:'#ffc4b6',y:gd},
+                    {name:'上海',color:'#c0e5ff',y:sh},
+                    {name:'福建',color:'#ffeb01',y:fj},
+                    {name:'其他',color:'#f38418',y:qt}
+                ]
+            }]
+        });
+    });
+});
+</script>
+</body>
+</html>

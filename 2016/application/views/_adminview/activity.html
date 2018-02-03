@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><!--用于修正ie8-->
+<title>中金在线_活动列表管理</title>
+<link type="text/css" rel="stylesheet" href="http://hs.cnfol.com/f=ub/Css/Modules/Basis.css,ui/Css/CloudCom/CloudCom.css,ua/css/cloud/Calendar.css,uj/Css/Wxydr/Wxydr.css,ua/css/cloud/window.css,ua/css/cloud/style.css,ui/Css/Select/Select.css,ue/Css/Clouds/NewStyle.css" />
+<!--[if IE]>
+<script src="http://hs.cnfol.com/Cm/Js/Html5.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript">
+document.domain="cnfol.com";
+</script>
+</head>
+<body>
+<i class="ColTil">活动设置</i>
+<form class="FmSrch ComWrp" method="post" id="search" name="search">
+	<label class="LabSlc">
+		活动名称：
+		<input type="text" name="activityName" value="<?=$post['activityName']?>">
+	</label>
+	<a href="javascript:search.submit();" class="BtnSrch">搜索</a>
+</form>
+<a class="BtnAdd" href="javascript:Dialog('AddTmk');">添加</a>
+<div class="RsltTil">
+	查询结果：
+</div>
+<table cellspacing="0" cellpadding="0" border="0" class="ComTabl TbPre">
+	<thead>
+		<tr>
+			<th>活动名称</th>
+			<th>活动时间</th>
+			<th>更新时间</th>
+			<th>操作</th>
+		</tr>
+	</thead>
+	<tbody id="TabM">
+	<?php if(!empty($data) && is_array($data)):?>
+		<?php foreach($data as $dataVal):?>
+			<tr >
+				<td><?=$dataVal['activityname']?></td>
+				<td><?=date('Y-m-d 00:00:00',$dataVal['startdate']).'~'.date('Y-m-d 23:59:59',$dataVal['enddate'])?></td>
+				<td><?=date('Y-m-d H:i:s',$dataVal['uptime'])?></td>
+				<td>
+					<a href="javascript:setId(<?=$dataVal['id']?>);" class="BtnSGry FileHdLink">上传题库</a>
+					<a href="<?=$dataVal['attpath']?>" class="BtnSGry">导出题库</a>
+					<a href="javascript:RsInfo(<?=$dataVal['id']?>,'<?=$dataVal['activityname']?>','<?=date('Y-m-d ',$dataVal['startdate'])?>','<?=date('Y-m-d',$dataVal['enddate'])?>');" class="BtnSGry">修改</a>
+				</td>
+			</tr>
+		<?php endforeach;?>
+	<?php endif;?>
+	</tbody>
+</table>
+<?=$pageLink?>
+<!--弹框 start-->
+<div class="DiaWin DiaActBx" id="modTmk">
+	<div class="DWTil"><a onclick="Dialog.Close();" href="javascript:void(0);" class="BtnCls Fr"></a>编辑活动</div>
+    <div class="DWCon">
+    	<p class="Mtb10">活动名称：<input type="text" id="up_activityName" value=""></p>
+        <p class="Mtb10">活动时间：<input type="text" id="up_startDate" value="" onclick="showCalendar(this)" readonly class="InpDate W100">至<input type="text" id="up_endDate" value="" onclick="showCalendar(this)" readonly class="InpDate W100"></p>
+    	<a id="upAct" class="BtnSbm" href="javascript:void(0);">确定</a>
+        <a onclick="Dialog.Close();" class="BtnCncl" href="javascript:void(0);">取消</a>
+    </div>
+</div>
+<div class="DiaWin DiaActBx" id="AddTmk">
+	<div class="DWTil"><a onclick="Dialog.Close();" href="javascript:void(0);" class="BtnCls Fr"></a>添加活动</div>
+    <div class="DWCon">
+    	<p class="Mtb10">活动名称：<input type="text" id="ad_activityName" value=""></p>
+        <p class="Mtb10">活动时间：<input type="text" id="ad_startDate" value="" onclick="showCalendar(this)" readonly class="InpDate W100">至<input type="text" id="ad_endDate" value="" onclick="showCalendar(this)" readonly class="InpDate W100"></p>
+    	<a id="adAct" class="BtnSbm" href="javascript:adRec();">确定</a>
+        <a onclick="Dialog.Close();" class="BtnCncl" href="javascript:void(0);">取消</a>
+    </div>
+</div>
+<form class="DiaWin DiaActBx" id="UpFile" name="UpFile" method="post" enctype="multipart/form-data">
+	<div class="DWTil"><a onclick="Dialog.Close();" href="javascript:void(0);" class="BtnCls Fr"></a>上传题库</div>
+    <div class="DWCon">
+    	<p class="Mtb10">选择题库：<input type="file" id="fileToUpload" name="fileToUpload" value=""></p>
+    	<a id="fileAct" class="BtnSbm" href="javascript:void(0);">上传</a>
+        <a onclick="Dialog.Close();" class="BtnCncl" href="javascript:void(0);">取消</a>
+    </div>
+</form>
+<!--弹框 end-->
+<script src="http://hs.cnfol.com/Cm/Js/Base.js" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/ua/js/Clouds/Tables.js" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/ui/Js/Select/Select.js" type="text/javascript"></script>
+<script src="<?=JS_PATH.'jquery.js'?>" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/ue/Js/Cloud/Dialog2.js" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/ua/js/Clouds/Calendar.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+Tables("TabM","Ccl","Ocl");
+Selects('psize');
+//修改
+function RsInfo(mid,name,sdate,edate)
+{
+	Dialog('modTmk');
+	$('#up_activityName').val(name);
+	$('#up_startDate').val(sdate);
+	$('#up_endDate').val(edate);
+	$('#upAct').attr('href','javascript:upRec('+mid+');');
+}
+function upRec(mid)
+{
+	if(mid < 1) return;
+
+	var newName = $('#up_activityName').val(),startDate=$('#up_startDate').val(),endDate=$('#up_endDate').val();
+
+	if($.trim(newName) == "")
+	{
+		alert('活动名称不能为空');
+		return false;
+	}
+	if(newName.length > 50)
+	{
+		alert('活动名称长度超出限制');
+		return false;
+	}
+	if($.trim(startDate) == "")
+	{
+		alert('开始日期不能为空');
+		return false;
+	}
+	if($.trim(endDate) == "")
+	{
+		alert('结束日期不能为空');
+		return false;
+	}
+	var url = "<?=BASE_URL.'index.php?uri=_admincoll/adminactivity/action/mod'?>";
+	var data = "mid="+mid+"&newName="+encodeURI(newName)+"&startDate="+startDate+"&endDate="+endDate+'&_t='+(new Date()).valueOf();
+	$.ajax({
+		url: url,
+		type: "POST",
+		dataType: "json",
+		data: data,
+		success: function(json)
+		{
+			alert(json.info);
+			Dialog.Close();
+			location.reload();
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown)
+		{
+			alert('数据提交失败，请重新提交！');
+		}
+	});
+}
+
+function adRec()
+{
+	var newName = $('#ad_activityName').val(),startDate=$('#ad_startDate').val(),endDate=$('#ad_endDate').val();
+ 
+	if($.trim(newName) == "")
+	{
+		alert('活动名称不能为空');
+		return false;
+	}
+	if(newName.length > 10)
+	{
+		alert('活动名称长度超出限制');
+		return false;
+	}
+	if($.trim(startDate) == "")
+	{
+		alert('开始日期不能为空');
+		return false;
+	}
+	if($.trim(endDate) == "")
+	{
+		alert('结束日期不能为空');
+		return false;
+	}
+	var url = "<?=BASE_URL.'index.php?uri=_admincoll/adminactivity/action/add'?>";
+	var data = "&newName="+encodeURI(newName)+"&startDate="+startDate+"&endDate="+endDate+'&_t='+(new Date()).valueOf();
+	$.ajax({
+		url: url,
+		type: "POST",
+		dataType: "json",
+		data: data,
+		success: function(data)
+		{
+			alert(data.info);
+			Dialog.Close();
+			location.reload();
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown)
+		{
+			alert('数据提交失败，请重新提交！');
+		}
+	});
+}
+function setId(mid)
+{
+	Dialog('UpFile');
+	$('#fileAct').attr('href','javascript:fileUpload('+mid+');');
+}
+function fileUpload(mid)
+{
+	if(mid < 1) return;
+
+	if($("#fileToUpload").val().length < 1)
+	{
+		alert('请选择附件');
+		return false;
+	}
+
+	$('#UpFile').attr('action',"<?=BASE_URL.'index.php?uri=_admincoll/adminactivity/attUpload/'?>"+mid);
+	UpFile.submit();
+}
+</script>
+<!--[if lt IE 10]>
+<script src="http://hs.cnfol.com/ua/js/cms/Radius.js" type="text/javascript"></script>
+<script type="text/javascript">
+DD_roundies.addRule('.BtnSrch','3px');
+</script>
+<![endif]-->
+</body>
+</html>

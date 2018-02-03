@@ -1,0 +1,919 @@
+<?php
+ // mktime: 1455527809
+ return array (
+  'contents' => 
+  array (
+    13338550457 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 6,
+        1 => 2,
+        2 => 2,
+        3 => 2,
+        4 => 2,
+        5 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13369551489 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 1,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13338550456 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13359884576 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 1,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13665445289 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13655475586 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666995566 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666923345 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    15666995566 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 6,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13339551238 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13759685566 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 6,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13699559989 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13666956645 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 1,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13358774555 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 1,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    18912345678 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13612345678 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    18012345678 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13666989912 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18966666666 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666985595 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13233666666 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13699552267 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18699555588 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    17899995568 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+        0 => 1,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666996699 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666966666 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+        0 => 6,
+        1 => 2,
+        2 => 2,
+        3 => 2,
+        4 => 2,
+        5 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18977777777 => 
+    array (
+      'pccount' => 6,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13812345678 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18911111111 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+        0 => 2,
+        1 => 2,
+        2 => 2,
+        3 => 2,
+        4 => 2,
+        5 => 2,
+        6 => 2,
+        7 => 2,
+        8 => 2,
+        9 => 2,
+        10 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13355555555 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    15645451212 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13333333333 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13655552234 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666357891 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18800000000 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13649587624 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13699547812 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13395175395 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 1,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18836363636 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => '4',
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18338550457 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => '4',
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18366666666 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => '4',
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13888888881 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => '4',
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    18878787878 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13669541589 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 1,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13659798345 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    18955554747 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    16999585565 => 
+    array (
+      'pccount' => 2,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13655464825 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    15999888847 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 6,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13699654587 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18922222222 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    18866666666 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => '2',
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13877777777 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => '4',
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13655987452 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13338552457 => 
+    array (
+      'pccount' => 1,
+      'pcitem' => 
+      array (
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666955555 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 6,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13699888855 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13844141155 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => true,
+    ),
+    13688585858 => 
+    array (
+      'pccount' => 0,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18966996699 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 4,
+        1 => 4,
+        2 => 4,
+        3 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666999996 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666985597 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 6,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    15699654585 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13699587785 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 2,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18999685523 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    18999666633 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 4,
+        1 => 4,
+        2 => 4,
+        3 => 4,
+        4 => 4,
+        5 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    15655252255 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 4,
+        1 => 4,
+        2 => 4,
+        3 => 4,
+        4 => 4,
+        5 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13699553364 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+    13666559963 => 
+    array (
+      'pccount' => 4,
+      'pcitem' => 
+      array (
+        0 => 4,
+        1 => 4,
+        2 => 4,
+        3 => 4,
+        4 => 4,
+        5 => 4,
+      ),
+      '3gcount' => 2,
+      '3gitem' => 
+      array (
+      ),
+      'pcisshare' => false,
+    ),
+  ),
+  'expire' => 0,
+  'mtime' => 1455527809,
+)
+?>

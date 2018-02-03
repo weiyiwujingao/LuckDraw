@@ -1,0 +1,314 @@
+<?php
+ // mktime: 1456914195
+ return array (
+  'contents' => 
+  array (
+    0 => 
+    array (
+      'username' => 'qq:******5756(福建)',
+      'phone' => '18965046186',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    1 => 
+    array (
+      'username' => 'sin:********8239(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160302',
+    ),
+    2 => 
+    array (
+      'username' => '186****5182(广东)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    3 => 
+    array (
+      'username' => 'wx:********7694(上海)',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    4 => 
+    array (
+      'username' => 'qq:168****897(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    5 => 
+    array (
+      'username' => 'sin:********1111(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    6 => 
+    array (
+      'username' => 'zj:******4795(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    7 => 
+    array (
+      'username' => 'sin:********8264(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160302',
+    ),
+    8 => 
+    array (
+      'username' => 'sin:********6303(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    9 => 
+    array (
+      'username' => 'CE-3****54(广东)',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    10 => 
+    array (
+      'username' => 'qq:246****209(重庆)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    11 => 
+    array (
+      'username' => 'qq:509****625(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    12 => 
+    array (
+      'username' => 'sin:********5531(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    13 => 
+    array (
+      'username' => 'wx:********7528(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160302',
+    ),
+    14 => 
+    array (
+      'username' => 'sin:********9032(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    15 => 
+    array (
+      'username' => 'qq:499****420(上海)',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    16 => 
+    array (
+      'username' => 'wx:********9324(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    17 => 
+    array (
+      'username' => 'qq:132****569(江苏)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    18 => 
+    array (
+      'username' => 'wx:********2215(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    19 => 
+    array (
+      'username' => 'qq:481****973(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160302',
+    ),
+    20 => 
+    array (
+      'username' => 'sin:********1909(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    21 => 
+    array (
+      'username' => 'wx:********8104(广东)',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    22 => 
+    array (
+      'username' => 'qq:293****771(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    23 => 
+    array (
+      'username' => 'CE-1****55(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    24 => 
+    array (
+      'username' => 'wx:********6702(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    25 => 
+    array (
+      'username' => 'CE-9****35(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160302',
+    ),
+    26 => 
+    array (
+      'username' => 'CE-5****70(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    27 => 
+    array (
+      'username' => 'qq:743****367(福建)',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    28 => 
+    array (
+      'username' => 'wx:********1557(天津)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    29 => 
+    array (
+      'username' => 'sin:********3089(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    30 => 
+    array (
+      'username' => 'wx:********4641(上海)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    31 => 
+    array (
+      'username' => 'CE-6****59(未知)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 2,
+      'time' => '20160302',
+    ),
+    32 => 
+    array (
+      'username' => '158****1721(福建)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    33 => 
+    array (
+      'username' => '153****1240(福建)',
+      'phone' => '',
+      'giftName' => '精美相框',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    34 => 
+    array (
+      'username' => 'zj:******2047(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    35 => 
+    array (
+      'username' => 'qq:606****856(广东)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    36 => 
+    array (
+      'username' => 'qq:223****599(福建)',
+      'phone' => '',
+      'giftName' => '10元话费',
+      'mark' => 1,
+      'time' => '20160302',
+    ),
+    37 => 
+    array (
+      'username' => '133****0457(福建)',
+      'phone' => '',
+      'giftName' => '50元红包',
+      ',mark' => 1,
+      'time' => '20160302',
+    ),
+  ),
+  'expire' => 0,
+  'mtime' => 1456914195,
+)
+?>

@@ -1,0 +1,40 @@
+<?php
+ // mktime: 1458517348
+ return array (
+  'contents' => 
+  array (
+    2 => 
+    array (
+      'giftname' => '25元红包',
+      'count' => 469,
+      'giftid' => '51547',
+    ),
+    4 => 
+    array (
+      'giftname' => '10元话费',
+      'count' => 0,
+      'giftid' => '',
+    ),
+    5 => 
+    array (
+      'giftname' => '精美相框',
+      'count' => 0,
+      'giftid' => '',
+    ),
+    6 => 
+    array (
+      'giftname' => '100元红包',
+      'count' => 0,
+      'giftid' => '51546',
+    ),
+    8 => 
+    array (
+      'giftname' => '50元红包',
+      'count' => 0,
+      'giftid' => '53637',
+    ),
+  ),
+  'expire' => 0,
+  'mtime' => 1458517348,
+)
+?>

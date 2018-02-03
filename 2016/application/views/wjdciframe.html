@@ -1,0 +1,375 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://vote2.cnfol.com/20141031/styles/poll/poll.css" rel="stylesheet" type="text/css" />
+<style>
+.xw-cen2L2-1 div{height:20px;line-height:18px;}
+.listbody{border:solid 1px #D3D2CB;}
+.poll_title{
+	background-color:#eee;
+	height:40px;
+	FONT-SIZE: 13px;
+	font-weight:bold
+}
+.poll_body{border-top:solid 1px #D3D2CB;border-bottom:solid 1px #D3D2CB;height:auto;}
+</style>
+<body>
+<center>
+<!-- 内容部分 -->
+<script language="javascript">
+function getCookieVal(offset)
+{
+      var endstr=document.cookie.indexOf(";",offset);
+      if(endstr==-1)
+        endstr=document.cookie.length;
+      return unescape(document.cookie.substring(offset,endstr));
+}
+function GetCookie(name)
+{
+      var arg=name+ "=";
+      var alen=arg.length;
+      var clen=document.cookie.length;
+      var i=0;
+      var r_null="";
+      while (i<clen)
+     {
+	   var j=i+alen;
+	   if(document.cookie.substring(i,j)==arg)
+	   return getCookieVal(j);
+	   i=document.cookie.indexOf("",i)+1;
+	   if(i==0)break;
+     }
+      return r_null;
+}
+function G(id){
+	return document.getElementById(id);
+}
+function Gname(name){
+	return document.getElementsByName(name);
+}
+function check(voteform)
+{
+	//投票截止时间
+	var votetime = voteform.votetime.value;
+	var d = new Date();
+	var s = "";
+	var myYears = ( d.getYear() < 1900 ) ? ( 1900 + d.getYear() ) : d.getYear();
+	s += myYears;
+	s += (d.getMonth() + 1);
+	s += d.getDate();
+	var myHours = ( d.getHours() < 10 ) ? ( '0' + d.getHours() ) : d.getHours();
+	s += myHours;
+	var myMinutes = ( d.getMinutes() < 10 ) ? ( '0' + d.getMinutes() ) : d.getMinutes();
+	s += myMinutes;
+	var mySeconds = ( d.getSeconds() < 10 ) ? ( '0' + d.getSeconds() ) : d.getSeconds();
+	s += mySeconds;
+	if(parseInt(votetime) < parseInt(s)){
+		alert('投票已经结束了，谢谢您的参与！');
+		return false;
+	}
+
+	//判断投票权限
+	var votequanxian = voteform.votequanxian.value;
+	if(votequanxian !='0'){
+		var cuserid = GetCookie('cookie[passport][userId]');
+		var cusername = GetCookie('cookie[passport][username]');
+		if(cuserid == '' || cusername == ''){
+			alert('您还未登入,请登入后在投票!');
+			return false;
+		}	
+	}
+
+	//判断是否投票过
+	var isvote = voteform.voteuser.value;
+	if(isvote == '1'){
+		alert('您已经投过票了，谢谢您的参与!');
+		return false;
+	}	
+
+	//多个投票提交 判断
+	var items = voteform.items;
+	if(items.value){
+		var op = Gname('vote'+items.value+'[]');
+		var str = "";
+		for(var j=0 ; j<op.length ; j++)
+		{	
+			var item_i = G('item_'+items.value);
+			item_i.style.background='#fff';
+			if(op[j].checked == true)
+			{
+				 str = op[j].value;
+			}
+		}
+		if(str == ""){
+			var itemtitle = G('title'+items.value).title;
+			var item_i = G('item_'+items.value);
+			item_i.style.background='#FFEFDB';
+			alert('问题：'+itemtitle+" 还未选择");
+			return false;
+		}		
+	}else{
+		for(var i = 0 ;i<items.length;i++){
+			var op = Gname('vote'+items[i].value+'[]');
+			var str = "";
+			for(var j=0 ; j<op.length ; j++)
+			{	
+				var item_i = G('item_'+items[i].value);
+				item_i.style.background='#fff';
+				if(op[j].checked == true)
+				{
+					 str = op[j].value;
+				}
+			}
+			if(str == ""){
+				var itemtitle = G('title'+items[i].value).title;
+				var item_i = G('item_'+items[i].value);
+				item_i.style.background='#FFEFDB';
+				alert('问题：'+itemtitle+" 还未选择");
+				return false;
+			}
+		}	
+	}
+	
+	return true;
+}
+function result(sort_id){
+	window.location.href = "http://vote2.cnfol.com/20141031/poll/result/"+sort_id+"/table/";
+}
+</script>
+<form name="form0" action="http://vote2.cnfol.com/20141031/poll/addvote/3702/a/" method="post" onsubmit="return check(this);">
+<table class='listbody' width="100%" cellspacing="1" cellpadding="4" border="0"  class="for_table"  align="center" >
+<tr>
+<td class="poll_title" align='left'>
+<div>1.您的年龄段别：</div>
+<div id = 'title8682' title="1.您的年龄段别：" style="display:none"></div>
+</td></tr>
+<tr id = 'item_8682'>
+<td class="poll_body">
+	<div class="xw-cen2L2-1">
+				<div class="oplist_6"><span><input name="vote8682[]" value="37665" type="radio"></span><span class="oplist_6_title">
+		23岁及以下</span></div>
+				<div class="oplist_6"><span><input name="vote8682[]" value="37666" type="radio"></span><span class="oplist_6_title">
+		24--30</span></div>
+				<div class="oplist_6"><span><input name="vote8682[]" value="37667" type="radio"></span><span class="oplist_6_title">
+		31--40</span></div>
+				<div class="oplist_6"><span><input name="vote8682[]" value="37668" type="radio"></span><span class="oplist_6_title">
+		41--50</span></div>
+				<div class="oplist_6"><span><input name="vote8682[]" value="37669" type="radio"></span><span class="oplist_6_title">
+		51--60</span></div>
+				<div class="oplist_6"><span><input name="vote8682[]" value="37670" type="radio"></span><span class="oplist_6_title">
+		61岁及以上</span></div>
+				<input name="items" type="hidden" value="8682">
+	</div>
+
+</td>
+</tr>
+<tr>
+<td class="poll_title" align='left'>
+<div>2.您的职业：</div>
+<div id = 'title8683' title="2.您的职业：" style="display:none"></div>
+</td></tr>
+<tr id = 'item_8683'>
+<td class="poll_body">
+	<div class="xw-cen2L2-1">
+				<div class="oplist_6"><span><input name="vote8683[]" value="37671" type="radio"></span><span class="oplist_6_title">
+		企业高管</span></div>
+				<div class="oplist_6"><span><input name="vote8683[]" value="37672" type="radio"></span><span class="oplist_6_title">
+		企业中层</span></div>
+				<div class="oplist_6"><span><input name="vote8683[]" value="37673" type="radio"></span><span class="oplist_6_title">
+		普通员工</span></div>
+				<div class="oplist_6"><span><input name="vote8683[]" value="37674" type="radio"></span><span class="oplist_6_title">
+		在校学生</span></div>
+				<div class="oplist_6"><span><input name="vote8683[]" value="37675" type="radio"></span><span class="oplist_6_title">
+		自由职业者</span></div>
+				<div class="oplist_6"><span><input name="vote8683[]" value="37676" type="radio"></span><span class="oplist_6_title">
+		其他</span></div>
+				<input name="items" type="hidden" value="8683">
+	</div>
+
+</td>
+</tr>
+<tr>
+<td class="poll_title" align='left'>
+<div>3.您目前的月收入（元）：</div>
+<div id = 'title8684' title="3.您目前的月收入（元）：" style="display:none"></div>
+</td></tr>
+<tr id = 'item_8684'>
+<td class="poll_body">
+	<div class="xw-cen2L2-1">
+				<div class="oplist_4"><span><input name="vote8684[]" value="37677" type="radio"></span><span class="oplist_4_title">
+		还没有收入</span></div>
+				<div class="oplist_4"><span><input name="vote8684[]" value="37678" type="radio"></span><span class="oplist_4_title">
+		2000以下</span></div>
+				<div class="oplist_4"><span><input name="vote8684[]" value="37679" type="radio"></span><span class="oplist_4_title">
+		2001--3000</span></div>
+				<div class="oplist_4"><span><input name="vote8684[]" value="37680" type="radio"></span><span class="oplist_4_title">
+		3001--5000</span></div>
+				<div class="oplist_4"><span><input name="vote8684[]" value="37681" type="radio"></span><span class="oplist_4_title">
+		5001--8000</span></div>
+				<div class="oplist_4"><span><input name="vote8684[]" value="37682" type="radio"></span><span class="oplist_4_title">
+		8001--10000</span></div>
+				<div class="oplist_4"><span><input name="vote8684[]" value="37683" type="radio"></span><span class="oplist_4_title">
+		10000以上</span></div>
+				<input name="items" type="hidden" value="8684">
+	</div>
+
+</td>
+</tr>
+<tr>
+<td class="poll_title" align='left'>
+<div>4.您的学历：</div>
+<div id = 'title8685' title="4.您的学历：" style="display:none"></div>
+</td></tr>
+<tr id = 'item_8685'>
+<td class="poll_body">
+	<div class="xw-cen2L2-1">
+				<div class="oplist_5"><span><input name="vote8685[]" value="37684" type="radio"></span><span class="oplist_5_title">
+		初中及以下</span></div>
+				<div class="oplist_5"><span><input name="vote8685[]" value="37685" type="radio"></span><span class="oplist_5_title">
+		高中</span></div>
+				<div class="oplist_5"><span><input name="vote8685[]" value="37686" type="radio"></span><span class="oplist_5_title">
+		专科</span></div>
+				<div class="oplist_5"><span><input name="vote8685[]" value="37687" type="radio"></span><span class="oplist_5_title">
+		本科</span></div>
+				<div class="oplist_5"><span><input name="vote8685[]" value="37688" type="radio"></span><span class="oplist_5_title">
+		研究生及以上</span></div>
+				<input name="items" type="hidden" value="8685">
+	</div>
+
+</td>
+</tr>
+<tr>
+<td class="poll_title" align='left'>
+<div>5.您觉得互联网金融是什么？</div>
+<div id = 'title8686' title="5.您觉得互联网金融是什么？" style="display:none"></div>
+</td></tr>
+<tr id = 'item_8686'>
+<td class="poll_body">
+	<div class="xw-cen2L2-1">
+				<div class="oplist_2"><span><input name="vote8686[]" value="37689" type="radio"></span><span class="oplist_2_title">
+		用网银支付宝在网上购物</span></div>
+				<div class="oplist_2"><span><input name="vote8686[]" value="37690" type="radio"></span><span class="oplist_2_title">
+		银行业务在互联网上的延伸以及第三方互联网公司的线上金融服务</span></div>
+				<div class="oplist_2"><span><input name="vote8686[]" value="37691" type="radio"></span><span class="oplist_2_title">
+		包括支付、转账、借贷理财等多种业务以互联网形式提供的金融服务</span></div>
+				<div class="oplist_2"><span><input name="vote8686[]" value="37692" type="radio"></span><span class="oplist_2_title">
+		一切包含互联网精神从而进行的资金流动活动</span></div>
+				<input name="items" type="hidden" value="8686">
+	</div>
+
+</td>
+</tr>
+<tr>
+<td class="poll_title" align='left'>
+<div>6.您投资过以下哪些互联网金融产品？</div>
+<div id = 'title8687' title="6.您投资过以下哪些互联网金融产品？" style="display:none"></div>
+</td></tr>
+<tr id = 'item_8687'>
+<td class="poll_body">
+	<div class="xw-cen2L2-1">
+				<div class="oplist_5"><span><input name="vote8687[]" value="37693" type="checkbox"></span><span class="oplist_5_title">
+		余额宝以及类余额宝产品</span></div>
+				<div class="oplist_5"><span><input name="vote8687[]" value="37694" type="checkbox"></span><span class="oplist_5_title">
+		P2P借贷</span></div>
+				<div class="oplist_5"><span><input name="vote8687[]" value="37695" type="checkbox"></span><span class="oplist_5_title">
+		银行理财产品</span></div>
+				<div class="oplist_5"><span><input name="vote8687[]" value="37696" type="checkbox"></span><span class="oplist_5_title">
+		其他</span></div>
+				<div class="oplist_5"><span><input name="vote8687[]" value="37697" type="checkbox"></span><span class="oplist_5_title">
+		没有投资过</span></div>
+				<input name="items" type="hidden" value="8687">
+	</div>
+
+</td>
+</tr>
+<tr>
+<td class="poll_title" align='left'>
+<div>7.目前您拥有或开通了以下哪些互联网金融安全工具？</div>
+<div id = 'title8688' title="7.目前您拥有或开通了以下哪些互联网金融安全工具？" style="display:none"></div>
+</td></tr>
+<tr id = 'item_8688'>
+<td class="poll_body">
+	<div class="xw-cen2L2-1">
+				<div class="oplist_3"><span><input name="vote8688[]" value="37698" type="checkbox"></span><span class="oplist_3_title">
+		网上银行支付口令卡</span></div>
+				<div class="oplist_3"><span><input name="vote8688[]" value="37699" type="checkbox"></span><span class="oplist_3_title">
+		网上银行U盾</span></div>
+				<div class="oplist_3"><span><input name="vote8688[]" value="37700" type="checkbox"></span><span class="oplist_3_title">
+		支付宝令</span></div>
+				<div class="oplist_3"><span><input name="vote8688[]" value="37701" type="checkbox"></span><span class="oplist_3_title">
+		余额变动短信提醒</span></div>
+				<div class="oplist_3"><span><input name="vote8688[]" value="37702" type="checkbox"></span><span class="oplist_3_title">
+		电脑上某银行网上银行安全控件</span></div>
+				<div class="oplist_3"><span><input name="vote8688[]" value="37703" type="checkbox"></span><span class="oplist_3_title">
+		360或其他软件保护</span></div>
+				<input name="items" type="hidden" value="8688">
+	</div>
+
+</td>
+</tr>
+<tr>
+<td class="poll_title" align='left'>
+<div>8.您最想了解以下哪类互联网金融产品？</div>
+<div id = 'title8695' title="8.您最想了解以下哪类互联网金融产品？" style="display:none"></div>
+</td></tr>
+<tr id = 'item_8695'>
+<td class="poll_body">
+	<div class="xw-cen2L2-1">
+				<div class="oplist_4"><span><input name="vote8695[]" value="37722" type="checkbox"></span><span class="oplist_4_title">
+		余额宝以及类余额宝产品</span></div>
+				<div class="oplist_4"><span><input name="vote8695[]" value="37723" type="checkbox"></span><span class="oplist_4_title">
+		P2P借贷</span></div>
+				<div class="oplist_4"><span><input name="vote8695[]" value="37724" type="checkbox"></span><span class="oplist_4_title">
+		银行理财产品</span></div>
+				<div class="oplist_4"><span><input name="vote8695[]" value="37725" type="checkbox"></span><span class="oplist_4_title">
+		其他</span></div>
+				<input name="items" type="hidden" value="8695">
+	</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td class="poll_foot" valign="center">
+	<table class="poll_table_submit" cellspacing="0" cellpadding="0" border="0" >
+	<tr><td valign="center">
+		<div class="xw-cen2L2-6a">
+		<input type="hidden" name="voteid" id="voteid" value="3702" />
+		<input type="hidden" name="votetime" id="votetime" value="20140915235959" />
+		<input type="hidden" name="votequanxian" id="votequanxian" value="0" />
+		<input type="hidden" name="voteuser" id="voteuser" value="0" />
+		<input type="submit" value="" style="background-image: url(http://vote2.cnfol.com/20141031/images/xinwen-04.gif); border: 0px none; width: 76px; height: 20px;cursor:pointer" class="input" name="submit"></div>
+				<div class="xw-cen2L2-6a"><img src="http://vote2.cnfol.com/20141031/images/xinwen-05.gif" onclick="result(3702);" style="cursor:pointer"></div>
+			</td></tr>
+	</table>
+</td></tr>
+</table>
+</form>
+<!-- 内容部分 -->
+</center>
+<!--google统计-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-197044-9");
+pageTracker._trackPageview();
+</script>
+
+<!--百度统计-->
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc378c4854ec370c1c8438f72e19b7170' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- End of LogMicroscope Code --> 
+
+<DIV style="DISPLAY: none"><!-- START AIYA Site Stat. -->
+<SCRIPT language=JavaScript type="text/javascript" src="//s.cnfolimg.com/v5.0/js/stat01-min.js"></SCRIPT>
+<NOSCRIPT><img src="//logs.cnfol.com/a?ci=cnfol" alt=""></NOSCRIPT><!-- END AIYA Site Stat. -->
+</DIV>
+</body>

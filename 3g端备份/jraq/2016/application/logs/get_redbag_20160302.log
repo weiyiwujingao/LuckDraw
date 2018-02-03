@@ -1,0 +1,9 @@
+[20:02:26][http://www.168p2p.com/api/redbag/get4vote.php?user_id=155555850&ordid=51546
+{"error":120,"info":"\u62a2\u5149","money":0}]
+[20:02:26][Array
+(
+    [error] => 120
+    [info] => 抢光
+    [money] => 0
+)
+]

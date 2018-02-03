@@ -1,0 +1,61 @@
+<!--Top Start-->
+<header class="TopBar">
+    <img src="http://hs.cnfol.com/ue/Imgs/Klg/3GBanner.png" class="TopBanner">
+</header>
+<!--Top End-->
+<!--Main Start-->
+<article class="BankMain Mb5 Cf">
+	<div class="MBx1 MBWn Mt5">
+	    <div class="NwPd">
+		奖品在活动结束后统一发放。如您抽中中金在线网贷平台红包，请先注册账号。注册完成后，请联系中金在线客服登记个人信息。如您已有账号，不需要再注册。 活动期间，请您保持手机畅通，以便联系。
+		中金在线网址：<a href="http://www.cnfol.com" target="_blank">www.cnfol.com</a><br>
+		中金在线网贷平台网址：<a href="http://www.168licai.cn" target="_blank">www.168licai.cn</a><br>
+		中金在线客服电话：400-8888-366
+        </div>
+    	<div class="MWnTit">本次获奖名单如下：</div>
+        <div class="MWnDt"><?=$nowTime?></div>
+        <div class="MWnDBx">移动端</div>
+		<?php if(!empty($data) && is_array($data)):?>
+			<?php foreach($data as $dataVal):?>
+				<p>手机号：<?=$dataVal['phone']?>
+				<span><?=$dataVal['giftName']?></span></p>
+			<?php endforeach;?>
+			<?php else :?>
+			<p>暂无获奖记录</p>
+		<?php endif;?>
+        <a href="javascript:LoadMore();" class="LoadMore" id="LoadMore">点击向下加载</a>
+    </div>
+</article>
+<!--Main End-->
+<script src="http://hs.cnfol.com/Cm/Js/Jquery16.js" type="text/javascript"></script>
+<script type="text/javascript">
+//加载更多
+var nowNum = 0;
+function LoadMore(num){
+	var $MoreUrl = '<?=M_BASE_URL?>hjmd.html';
+	$.ajax({
+		url: $MoreUrl,
+		cache: false,
+		type: 'post',
+		dataType: 'json',
+		data: {num:nowNum+=10,t:new Date().getTime()},
+		success: function(jsondata){
+			var tabres = '',Dt = '';
+			switch(jsondata.flag){
+				case '00':
+					//Dt = '<div class="MWnDt">'+jsondata.date+'</div><div class="MWnDBx">移动端</div>';//日期
+					$.each(jsondata.data, function(key,item){
+						tabres += "<p>手机号：" + item['phone'] + "<span>" + item['giftName'] + "</span></p>";
+					});
+					//$('#LoadMore').before(Dt);//日期
+					$('#LoadMore').before(tabres);//名单
+				break;
+			}
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+			//alert('数据提交失败，请重新提交！');
+			return false;
+		}
+	});
+}
+</script>

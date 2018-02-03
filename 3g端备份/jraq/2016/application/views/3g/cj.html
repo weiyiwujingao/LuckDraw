@@ -1,0 +1,115 @@
+<style>
+.PanBg{background-image:url(http://hs.cnfol.com/ue/Imgs/Klg/3GCjScrBxQ2.png);}
+</style>
+<!--Top Start-->
+<header class="TopBar">
+    <img src="http://hs.cnfol.com/ue/Imgs/Klg/3GBanner.png" class="TopBanner">
+</header>
+<!--Top End-->
+<!--Main Start-->
+<article class="MBx1 Mb5 Cf">
+    <div id="DialBg" class="DialBg">
+        <div class="PanBg" id="PanBg">
+            <div id="D11_6" class="Needle"></div>
+            <div id="yjButton" class="GoBtn" onclick="StartScr()">开始</div>
+        </div>
+    </div>
+</article>
+<!--Main End-->
+<!--弹框 Start-->
+<div class="WnBg" id="WnBg"></div>
+<div class="WnBx CjAltBx Cf" id="CjAltBx0">
+	<p><input type="text" id="TxtPhone" name="TxtPhone" value="" class="CjAltIpt" maxlength="11"></p>
+    <p id="CjPhone">请输入手机号参与抽奖！</p>
+    <a class="CjAltBtn"  href="javascript:;" onClick="SetPhone()">好</a>
+</div>
+<!--中奖的-->
+<div class="WnBx CjAltBx Cf" id="CjAltBx">
+    <p id="msg"></p>
+    <a id="btn1" class="CjAltBtn"  href="javascript:Dialog.Close();">继续抽奖</a>
+	<a id="btn2" class="CjAltBtn"  href="javascript:Dialog.Close();">关闭</a>
+</div>
+<!--弹框 End-->
+<script src="http://hs.cnfol.com/Cm/Js/Css3.js" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/Cm/Js/Base.js" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/Cm/Js/Jquery16.js" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/Cm/Js/Dialog.js" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/ue/Js/Klg/Dials.js" type="text/javascript"></script>
+<script src="http://hs.cnfol.com/ue/Js/Klg/Scr3G.js" type="text/javascript"></script>
+<script>
+//抽奖
+SetWH();
+Dialog('WnBg','CjAltBx0');
+Dials("D11_6");
+var YjBtn = C.G("yjButton");
+function StartScr()
+{
+	var $SubUrl = '<?=M_BASE_URL?>gift.html' + '?t='+new Date().getTime();
+	var startBtn = C.G("D11_6");
+	YjBtn.style.display = "none";
+	$.ajax({
+		url: $SubUrl,
+		cache:false,
+		type: 'post',
+		dataType: 'json',
+		data: {phone:$("#TxtPhone").val(),key:"<?=$key?>",t:<?=$time?>},
+		success: function(jsondata)
+		{
+			$('#msg').html(jsondata.info);
+
+			if(jsondata.count <= 0)
+			{
+				$('#btn1').text('获奖名单');
+				$('#btn1').attr('href','<?=M_BASE_URL.'hjmd.html'?>');
+				$('#btn2').text('关闭');
+			}
+			else
+			{
+				$('#btn1').text('继续抽奖');
+				$('#btn2').text('关闭');
+			}
+			switch(jsondata.flag)
+			{
+				case '1'://中奖
+					Dials.prototype.Start(C.G("D11_6"), jsondata.giftid, function()
+					{
+						setTimeout(function ()
+						{
+							YjBtn.style.display = "block";
+							Dialog("WnBg","CjAltBx");
+						},1000);
+					});
+				break;
+				case '2'://没有中奖
+					Dials.prototype.Start(C.G("D11_6"), 3, function()
+					{
+						setTimeout(function ()
+						{
+							YjBtn.style.display = "block";
+							Dialog("WnBg","CjAltBx");
+						},1000);
+					});
+				break;
+				case '3'://次数为0
+					YjBtn.style.display = "block";
+					Dialog("WnBg","CjAltBx");
+				break;
+				default:
+					YjBtn.style.display = "block";
+					alert('系统繁忙，请稍后再试！');
+				break;
+			}
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+			YjBtn.style.display = "block";
+			alert('网络繁忙，请稍后再试！');
+			return false;
+		}
+	});
+}
+
+function SendPh()
+{
+	Dialog.Close();
+}
+</script>

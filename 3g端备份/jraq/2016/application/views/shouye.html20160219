@@ -1,0 +1,164 @@
+<!--Nav Start-->
+<div class="Nav Mt20">
+	<div class="NavBg Cf">
+    	<a href="<?=base_url()?>" target="_blank" class="Nlink1 Cf"><i class="NkL"></i><span>首页</span><i class="NkR"></i></a>
+    	<a href="<?=base_url()?>" target="_blank" class="Nlink2 Cf Cur"><i class="NkL"></i><span>福建互联网金融</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'hdjs.html'?>" target="_blank" class="Nlink3 Cf"><i class="NkL"></i><span>活动介绍</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'yjwd.html'?>" target="_blank" class="Nlink4 Cf"><i class="NkL"></i><span>有奖问答</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'wjdc.html'?>" target="_blank" class="Nlink5 Cf"><i class="NkL"></i><span>问卷调查</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'zsg.html'?>" target="_blank" class="Nlink6 Cf"><i class="NkL"></i><span>知识馆</span><i class="NkR"></i></a>
+    	<a href="<?=base_url().'hjmd.html'?>" target="_blank" class="Nlink7 Cf"><i class="NkL"></i><span>获奖名单</span><i class="NkR"></i></a>
+    </div>
+</div>
+<!--Nav End-->
+<!--Main Start-->
+<div class="W960 Mt20 Cf">
+	<div class="Dv1 Cf">
+    	<div class="Dv1L Cf">
+        	<script src="http://he.js.cnfol.com/index_new.php/id=2795&br=0"></script>
+			<script src="http://he.js.cnfol.com/index_new.php/id=2796&br=0"></script>
+        </div>
+    	<div class="Dv1R Mt10 Cf">
+        	<b>活动介绍</b>
+            <p class="Cf">
+            	<em>主  办：</em>
+            	<span>福建省互联网信息办公室</span>
+            </p>
+            <p class="Cf">
+            	<em>&nbsp;</em>
+            	<span>福建省通信管理局</span>
+            </p>
+            <p class="Cf">
+            	<em>&nbsp;</em>
+            	<span>福建省公安厅网安总队</span>
+            </p>
+            <p class="Cf">
+            	<em>协  办：</em>
+            	<span>中国人民银行福州中心支行</span>
+            </p>
+            <p class="Cf">
+            	<em>承  办：</em>
+            	<span>福建中金在线网络股份有限公司</span>
+            </p>
+            <p class="Cf">
+            	<em>主  题：</em>
+            	<span>普及互联网金融安全知识 促进互联网金融健康发展</span>
+            </p>
+            <p class="Cf">
+            	<em>时  间：</em>
+            	<span>2016年1月1日起至2016年12月31日</span>
+            </p>
+        </div>
+    </div>
+    <div class="Tit1"></div>
+    <div class="Dv2 Cf">
+    	<a href="<?=base_url().'wjdc.html'?>" class="Dv2A1"></a>
+    	<a href="<?=base_url().'zsg.html'?>" class="Dv2A2"></a>
+    	<a href="<?=base_url().'yjwd.html'?>" class="Dv2A3"></a>
+    </div>
+    <div class="Tit2"></div>
+    <div class="Dv3 Cf">
+    	<b class="Tel">咨询热线：400-8888-366</b>
+        <b class="Tits">2014年福建省普及互联网金融安全活动开展时间表</b>
+        <table cellpadding="2" cellspacing="2" border="1" bordercolor="#FFFFFF" width="100%" class="Tab1">
+        	<tr>
+            	<th width="20%">阶段</th>
+            	<th width="20%">时间</th>
+            	<th>主要内容</th>
+            </tr>
+            <tr>
+            	<td>第一阶段</td>
+            	<td>7-8月</td>
+            	<td class="Tl">
+                	1.中金在线微信平台发布系列专题，宣传普及互联网金融安全知识；<br />
+                    2.制作互联网金融安全系列视频，在各大视频平台进行宣传；<br />
+                	3.中金在线微信平台发布系列专题，宣传普及互联网金融安全知识；<br />
+                    4.制作互联网金融安全系列视频，在各大视频平台进行宣传；<br />
+                	5.中金在线微信平台发布系列专题，宣传普及互联网金融安全知识；<br />
+                    6.制作互联网金融安全系列视频，在各大视频平台进行宣传；<br />
+                </td>
+            </tr>
+            <tr>
+            	<td>第二阶段</td>
+            	<td>9-10月</td>
+            	<td class="Tl">
+                	1.中金在线微信平台发布系列专题，宣传普及互联网金融安全知识；<br />
+                    2.制作互联网金融安全系列视频，在各大视频平台进行宣传；<br />
+                	3.中金在线微信平台发布系列专题，宣传普及互联网金融安全知识；<br />
+                    4.制作互联网金融安全系列视频，在各大视频平台进行宣传；<br />
+                </td>
+            </tr>
+            <tr>
+            	<td>第三阶段</td>
+            	<td>11-12月</td>
+            	<td class="Tl">
+                	1.中金在线微信平台发布系列专题，宣传普及互联网金融安全知识；<br />
+                    2.制作互联网金融安全系列视频，在各大视频平台进行宣传；<br />
+                	3.中金在线微信平台发布系列专题，宣传普及互联网金融安全知识；<br />
+                    4.制作互联网金融安全系列视频，在各大视频平台进行宣传；<br />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="Tit3"></div>
+    <div class="Dv4 Cf">
+    	<a href="<?=base_url().'zsg.html'?>" target="_blank" class="Lk1">更多&gt;&gt;</a>
+    	<script src="http://he.js.cnfol.com/index_new.php/id=2797&br=0"></script>
+    </div>
+    <div class="Tit4"></div>
+    <div class="Dv5 Cf">
+    	<script src="http://he.js.cnfol.com/index_new.php/id=2798&br=0"></script>
+    </div>
+    <div class="Tit5"></div>
+    <div class="Dv6 Cf">
+    	<div class="DvLst Fl Cf">
+        	<div class="DvlTit Cf">
+                <a href="#" target="_blank" class="Fr">更多&gt;&gt;</a>
+            	省内动态
+            </div>
+            <div class="DvlInfo">
+               <script src="http://tags.js.cnfol.com/tag_news.php?tag=%B8%A3%BD%A8%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA&record=9&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </div>
+        </div>
+    	<div class="DvLst Fr Cf">
+        	<div class="DvlTit Cf">
+                <a href="#" target="_blank" class="Fr">更多&gt;&gt;</a>
+            	行业动态
+            </div>
+        	<div class="DvlInfo">
+               <script src="http://tags.js.cnfol.com/tag_news.php?tag=%BB%A5%C1%AA%CD%F8%BD%F0%C8%DA%D0%D0%D2%B5%B6%AF%CC%AC&record=9&len=60&ishtml=1&charset=utf8" charset="utf-8"></script>
+            </div>
+        </div>
+    </div>
+    <div class="Tit6"></div>
+    <div class="Dv7 Cf">
+    	<script src="http://he.js.cnfol.com/index_new.php/id=2799&br=0"></script>
+    </div>
+    <div class="Tit7"></div>
+    <div class="Dv8 Cf">
+    	<script src="http://he.js.cnfol.com/index_new.php/id=2025&br=0"></script>
+    </div>
+</div>
+<!--Main End-->
+<!--右侧浮动 Start-->
+<div id="FixedRight" class="FixedRight" style="width:143px;height:auto;">
+	<a class="Cls" title="关闭" onclick="document.getElementById('FixedRight').style.display='none'" href="javascript:void(0);">X</a>
+    <div class="Pre">
+    	<img src="http://hs.cnfol.com/ue/Imgs/Klg/2016/CodeR.png" />
+    </div>
+</div>
+<!--右侧浮动 End-->
+<a href="#top" class="GoTop" id="GoTop" style="display:none;"></a>
+
+<script src="http://hs.cnfol.com/f=Cm/Js/Base.js,Cm/Js/Jquery16.js" type="text/javascript"></script>
+<script type="text/javascript">
+//回顶
+window.onscroll=function(){
+	(document.body.scrollTop||document.documentElement.scrollTop)==0?C.G('GoTop').style.display='none':C.G('GoTop').style.display='block';
+}
+
+</script>
+
+
+</body>
+</html>
